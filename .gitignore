@@ -58,3 +58,6 @@ results/tmp/
 .env
 .env.local
 *.key
+
+# Blog drafts (private until published)
+blog-drafts/
