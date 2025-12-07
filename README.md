@@ -11,6 +11,7 @@ The Bart Test is a universal LLM evaluation that combines:
 - **Cultural awareness** (current Gen-Alpha slang usage)
 - **Creative expression** (emoji storytelling, humor)
 - **Human judgment** (rated by actual teenagers, not benchmarks)
+- **AI judges** (experimental: frontier models evaluating cultural fluency)
 
 Unlike traditional benchmarks, the Bart Test reveals whether models **overthink** simple creative tasks and whether their outputs sound natural or forced.
 
@@ -35,24 +36,54 @@ Total: 25 points
 - **Humor** (5 pts) - Actually funny, good timing, relatable
 - **Coherence** (5 pts) - Clear story arc, flows well
 
-Human judges (my two teenagers) provide the authoritative rating on a 1-10 scale:
-- **1** = Completely cooked (cringe, trying way too hard)
-- **10** = Actually bussin' (sounds natural, would pass as human)
-- **Context matters**: Does it sound like a teen or an adult wrote it?
+**Human judges** (my two teenagers + friends) provide the authoritative rating on a 1-10 scale:
+- **Overall Vibe**: Does it hit or completely miss?
+- **Slang Game**: Natural or trying too hard?
+- **Emoji Energy**: Do the emojis slap?
+- **Humor Level**: Actually funny or cringe?
+
+**AI judges** (experimental - GPT-4o, Claude Sonnet 4.5, Gemini Pro):
+- Same 1-10 rubric as human judges
+- Tests whether frontier models can identify "forced" vs "natural" slang
+- Validates human ratings and enables rapid model testing
+- Tracks judge correlation: Are AI judges getting better at cultural fluency?
 
 ## Results
 
-### OLMo 3 32B Think (Q4_K_M)
+### Experiment 01: OLMo 3 32B Think Baseline (Q4_K_M)
 - **Date**: December 4, 2024
 - **Tokens**: 1,060 (extensive thinking traces visible)
 - **Duration**: 44 seconds
+- **Temperature**: 0.7
 - **Teen Judge #1**: 4-5/10 - "It's definitely AI... a little bit aggressive with all the slang... Just like… a little too much"
 - **Teen Judge #2**: 6/10 (if teen) / 2/10 (if adult) - "Sounds like my ELA project where we had to use as much slang as possible"
 - **Key insight**: AI approached it like homework - maximizing slang density instead of being natural
 - **Status**: ⭐ First baseline result
 - [Full output →](results/01_bart_test_20251204_211238.json)
 
+### Experiment 02: Constraint Experiments (December 7, 2024)
+
+Testing the "overthinking" hypothesis with 4 variations on OLMo 3 32B Think:
+
+| Experiment | Description | Tokens | Duration | Status |
+|------------|-------------|--------|----------|--------|
+| **02a** - Lower Temp (0.5) | Reduce randomness to test if it produces more natural slang | 1,216 | 50.7s | Still overthinks |
+| **02b** - Higher Temp (1.0) | Increase randomness for more natural variation | 1,585 | 67.3s | MORE overthinking! |
+| **02c** - Natural Constraint | Explicitly limit to max 5 slang terms | 1,707 | 71.7s | AI ignored constraint |
+| **02d** - Style Anchor | "Write like texting a friend who codes" framing | 1,044 | 43.8s | ⭐ Shortest/fastest |
+
+**Key Findings:**
+- Temperature changes didn't help - higher temp made it worse
+- Explicit constraints backfired - AI overthought even more trying to follow them
+- **Style anchoring** (social context framing) showed most promise - closest to baseline length
+- Results suggest prompt framing matters more than temperature tuning for this model
+
+**Status**: Awaiting teen judge evaluations (in progress)
+
+[Full outputs →](results/)
+
 ### Coming Soon
+- Analysis of teen judge ratings from Experiment 02
 - Llama 3.1 8B Instruct
 - GPT-4o
 - Claude 3.5 Sonnet
@@ -64,14 +95,21 @@ Human judges (my two teenagers) provide the authoritative rating on a 1-10 scale
 ```
 bart-test/
 ├── README.md
-├── experiments/           # Test scripts for different models
-│   └── 01_bart_test.py   # OLMo 3 baseline
+├── experiments/                    # Test scripts for different models
+│   ├── 01_bart_test.py            # OLMo 3 baseline
+│   └── 02_constraint_experiments.py # Temperature & prompt variations
 ├── prompts/
-│   └── bart_test.md      # Full test documentation & rubric
-├── results/              # JSON outputs from each test
+│   └── bart_test.md               # Full test documentation & rubric
+├── results/                       # JSON outputs from each test
+│   ├── 01_bart_test_*.json       # Baseline results
+│   ├── 02a_temp_0.5_*.json       # Lower temperature
+│   ├── 02b_temp_1.0_*.json       # Higher temperature
+│   ├── 02c_natural_constraint_*.json # Max 5 slang constraint
+│   ├── 02d_style_anchor_*.json   # Texting friend framing
+│   └── bart_test_review_template.csv # Review template for judges
 ├── scripts/
-│   └── olmo_client.py    # LM Studio API client
-└── blog-drafts/          # Blog post drafts (gitignored)
+│   └── olmo_client.py            # LM Studio API client
+└── blog-drafts/                  # Blog post drafts (gitignored)
 ```
 
 ## Running the Test
@@ -98,8 +136,25 @@ pip install -r requirements.txt
 3. Run the test:
 
 ```bash
+# Run baseline test
 python experiments/01_bart_test.py
+
+# Run constraint experiments (4 variations)
+python experiments/02_constraint_experiments.py
 ```
+
+### Analyzing Results
+
+After running experiments, share results with teen judges:
+
+1. Import `results/bart_test_review_template.csv` to Google Sheets
+2. Hide columns A & B (experiment metadata)
+3. Duplicate sheet for each judge
+4. Judges rate on 1-10 scale:
+   - Overall Vibe
+   - Slang Game (natural vs. trying too hard)
+   - Emoji Energy
+   - Humor Level
 
 ### For API Models
 

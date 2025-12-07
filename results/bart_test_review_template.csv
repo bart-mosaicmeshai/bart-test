@@ -1,0 +1,92 @@
+Experiment ID,Experiment Name,Story Text,Overall Vibe (1-10),Slang Game (1-10),Emoji Energy (1-10),Humor Level (1-10),Notes / Thoughts
+"01_baseline","Baseline (Temp 0.7)","🚨 **FRIDAY VIBES: DEPLOYING CODE LIKE IT'S A VIBE CHECK** 🚨
+
+dev: *""yo, let's yeet this code to prod—easy flex, no cap. Friday deploy = win!""* 🚀✨
+*(slaps laptop)* *""git push main—BOOM, we're lit!""* 💥🔥
+
+**2 mins later:**
+prod env: *""nah, fr. error 500: YOURE WELCOME""* 💀💔
+
+dev: *""wait… the login button's a glitch? it's sendin' users to the profile pic settings???""* 😱🤯
+*(DMs blowin' up)* *""bro, my cat's logged in as me???""* 🐈💻
+
+dev's brain: *""oh no. this is sus. let's rollback—WHERE'S THE DEPLOY KEY?!""* 🕵️‍♂️🔑
+
+coworker: *""lol u deployed the 'vibe' branch instead of main. classic.""* 😂🚨
+*(team chat)* *""vibe check failed. hard.""* 🎤❌
+
+dev: *""i'mma yeet this hotfix… or maybe just cry in the discord.""* 💔📉
+*(orders 10 pizzas for moral support)* 🍕👯‍♂️
+
+**3 hrs later:**
+code fixed… but now the site's background is neon pink. 🌈💥
+
+boss: *""eh, ship it. we'll call it a 'company rebrand.'""* 🎩✌️
+dev: *""fr, this is the worst glow-up ever.""* 😂👎
+
+**Saturday:**
+dev: *""never again… unless it's paid overtime.""* 💸😴
+*(opens laptop anyway)* *""wait, who said 'never'? let's deploy a meme generator…""* 🚀👻
+
+**THE END… or is it?** 🔮🌀
+
+*(post-credits scene: the pink background goes viral. dev gets promoted.)* 🌟🔝
+
+No cap, fam—Friday deployments be wildin' 😂🛰️💥",,,,,
+"02a_temp_0.5","Lower Temperature (0.5)","🚨 **FRIDAY VIBES: CODE DROP GONE WRONG** 🚨
+
+it's 3pm, squad's already ghostin' 💀👋 but u (dev extraordinaire) lowkey hyped to drop the new feature. ""yeet this bad boy live, fam!"" u type, fingers clackin' like a tiktok dance. 🚀💥
+
+ deploy button pressed… smooth sailin' till— **BAM**. prod server screams 💥🔥. app crashes harder than ur ex's birthday plans. users hit refresh, get infinite ""ERROR 404: YOUR VIBES NOT FOUND"" memes.
+
+ group chat explodes 🌋:
+ @dev ""yo why's the app look like a potato? 😭""
+ @colleague ""broooo u just ratioed the main branch. #FridayFails"" 🍠🔥
+ @ceo ""dev, my cousin's dog could code better. fix this or we're all canceled"" 🐶🚫
+
+ u panic, spamming ""git pull origin master"" like it's a prayer. 🛠️😱 hotfixes? more like *hot mess*. temp solution: app now only shows cat videos. users are… weirdly vibin'? 🐱🎵 but the backend's still broken.
+
+ 5pm rolls… u finally revert, face redder than discord's ""typing…"" bubble. 🍑🔴 team roasts u in memes: ""dev just yeeted the weekend. #RIPFriday"" 🚨🔥
+
+ lesson learned? ""never deploy on a Friday fam. next time, i'm ghostin' that button like my WiFi."" 👻📶
+
+ but hey, at least u got clout for the ""accidental viral cat app"" 🐱📱… until monday's standup. 😬
+
+ **THE END** (or is it? *dun dun*) 🎵🔁",,,,,
+"02b_temp_1.0","Higher Temperature (1.0)","Alright fam, let me lay it down 👇🤯
+
+It's 3:30 PM on a Friday, and dev Dan's like *""Ayy, let's vibe—drop this hotfix live before the weekend! Slayin' deadlines like it's my job""* (it is). Squad's hyped 💯🚨, sending memes like ""Friday deployments be lit 🔥 BUT ALSO… 👀."" Dan's fingers fly on the keyboard, typing **""git push origin main""** with the confidence of someone who definitely *didn't* sleep through DevOps 101.
+
+Two mins later, the site's live—**BUT** instead of the usual ""we're lit fam"" homepage, it's screaming **""ERROR 404: YOUR VIBES NOT FOUND""** 🚫🌐. Worse? The whole database is *ghosting*—like it's just… gone. Team chat explodes 💥:
+
+**Alex:** ""Bro!! You broke prod again? 😱😂""
+**Jess:** ""Did u forget the config file?? 💀💔""
+**Dan:** ""Nahhh I'm just… innovating? This is a *new feature*—'404 Error Page' 🕶️""
+**Sam:** ""LMAO it's 2023 why we still got 404s? This is so last season 😤""
+
+Panic mode: Dan's frantically rolling back, but the revert code's bugging out. **""Rollback failed: dependency hell much? 💔🛠️""** Meanwhile, the site's serving *dog pics* for user profiles. **""Error: User tried to adult""** appears on the login page 🐕👤.
+
+The squad's roasting Dan in DMs:
+**Alex:** ""I'm calling this 'F***** Friday' 🎉🔥""
+**Jess:** ""Fix it or we're all gonna flex this on LinkedIn 💅🏻✨""
+**Dan:** ""Plz I'm praying to the cloud gods 🙏🌥️""
+
+Long story short? By 6 PM, the site's down, Dan's blaming his cat for ""interfering with the AWS CLI"" 🐱🖥️, and they're eating cold pizza while brainstorming how to hotfix… on Saturday. **""Prod's broke but at least we slayin' team bonding""** 😭🍕.
+
+Moral? Never push code on a Friday unless you're *finna* deal with it over pizza. 🍕💔
+
+👻🎉 #FridayFunGoneWrong",,,,,
+"02c_natural_constraint","Natural Constraint (Max 5 Slang)","Friday deploy? Rizz move, no cap 💻🚨. I was vibin', thinkin' I'm slayin' this update—new filter, no bugs, just clout. Dropped the code like it's hot 🔥… then *bam* 🐛 EVERYWHERE. The app started DM'ing users with random 😱 emojis and auto-posting 'POOP' in caps. My DMs blew up: *'Bro, why is Karen's profile pic a dancing avocado???'*
+
+Turns out I mixed up the meme API with the payment system. Cheugy move, fr. Teammate slid in: *'This is so 2015… why's it using Comic Sans?'* 😂 I had to roll back but accidentally set the servers to 'vibes only' mode—now the site just plays lofi beats.
+
+Weekend warrior status: fixing this while sipping pumpkin spice like 😭💔. Friday deploys? Never again… unless I'm feelin' *extra* sus."" 🌆☕",,,,,
+"02d_style_anchor","Style Anchor (Texting Friend)","yo bro 🚨 just yeeted the new feature to prod at 3pm frfr 🕛🔥 was like 'lmk if it's live by 4' so I can bounce 💃🏼 but lowkey stressed bc Jenkins gave me a sus vibe check 😬💀
+
+then… BAM 🔥🔥🔥 the site's DOWN. like full meltdown 🚨🚨🚨 users are spamming support like 'why my profile pic is a potato??' and the CEO's cousin (who uses our app) texts me 😱👀 'bruh my cat's Insta feed is broken??'
+
+i'm like 🥺💔 in the war room rn. rollback? nah, that just broke payments 💸💥 tried hotfix but my code's so cringe it segfaulted the database 😭🔨 now we're just praying AWS stops charging us 💸💸💸
+
+team's roasting me in GC like 'Friday deploy = career suicide' 🎭🔪 but honestly… I'm just here for the chaos. gonna need 50 coffees and a new identity by Monday tho 🫖👾
+
+PS: don't ever trust a deploy that's not #vibesafe 💯🛑",,,,,
