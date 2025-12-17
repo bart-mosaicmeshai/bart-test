@@ -1,7 +1,9 @@
 # Bart Test - Session Handoff
 
 **Date**: December 17, 2024
-**Current Status**: Hybrid evaluation complete - AI + human judges validated
+**Current Status**: Strategic pivot - Committing to benchmark approach, not prompt engineering
+
+**Next Critical Decision**: Run Experiment 03 to test if prompt causes "trying too hard" problem
 
 ---
 
@@ -121,10 +123,24 @@ blog-drafts/ (gitignored)
 
 ## Current State
 
-### Ready to Run
-- **AI judges system** - Complete and ready to test
-- Need to set up API keys (Claude, OpenAI, Google)
-- Run on Experiment 02 outputs to validate hybrid approach
+### What We Know (Dec 17, 2024)
+- ✅ **Hybrid evaluation works** - AI + human judges agree on winners
+- ✅ **"Trying too hard" is universal** - All OLMo outputs over-index on slang
+- ✅ **Dated slang identified** - "no cap" and "vibe" feel old to teens
+- ✅ **Emoji insight** - Core set is 😂😭🔥🥀, avoid uncommon ones
+- ✅ **Blog posts drafted** - Parts 1-3 ready to publish
+
+### Critical Open Question
+**Does the prompt cause the problem or is it OLMo-specific?**
+
+Need to test: Does baseline prompt make ALL models "try too hard" or just OLMo?
+
+### Strategic Decision Made
+**Committing to Option B: Benchmark (not prompt engineering)**
+- Same prompt for all models
+- Compare natural performance across models
+- Build leaderboard showing who handles cultural fluency best
+- See: `/Users/bartgottschalk/Projects/mosaic-mesh-strategic-planning/artifacts/02_active_workstreams/bart_test_strategic_plan.md`
 
 ### Blog Series Status
 - **Launch Arc** (Parts 1-3): Introducing Bart Test + OLMo results
@@ -249,24 +265,135 @@ python experiments/02_constraint_experiments.py
 
 ---
 
-## Questions for User / Clarifications Needed
+## Next Session: Critical Path
 
-When resuming, check with user:
-1. **API keys set up?** (Need Claude, OpenAI, and/or Google)
-2. **Ready to run AI judges?** System is built and tested
-3. **Kids interested in A/B reviews?** (5 min quick comparisons)
-4. **Blog post timing?** AI judges results could be Part 3 instead
+### Immediate Action (Required Before Locking Methodology)
+
+**Experiment 03: Cross-Model Baseline Test**
+
+**Goal**: Answer "Is it the prompt or the model?"
+
+**Method**: Run EXACT baseline prompt on:
+1. GPT-4o (OpenAI API)
+2. Claude 3.5 Sonnet (Anthropic API)
+3. Gemini Pro (Google API)
+
+**Questions to Answer:**
+- Do they also "try too hard" with slang?
+- Do they also use dated terms ("no cap", "vibe")?
+- Or do they naturally code-switch better than OLMo?
+
+**Decision Point:**
+- If all 3 struggle → Consider modifying prompt before locking
+- If 1-2 handle it well → Lock baseline prompt as canonical
+
+**Timeline**: ~2 hours to run, ~$15 in API costs
+
+**After This**: We can confidently lock the methodology
+
+---
+
+### Short-Term Path (Next 2-3 Weeks)
+
+**1. Lock Methodology**
+- Create `METHODOLOGY.md` with canonical prompt, rubric, process
+- Mark as immutable for fair cross-model comparison
+- Document in blog post explaining the choice
+
+**2. Publish Blog Series**
+- Part 1: "Introducing the Bart Test"
+- Part 2: "Finding the Sweet Spot" (updated with judge results)
+- Part 3: "What the Teen Judges Said" (draft complete)
+- Drive traffic to GitHub repo
+
+**3. Test 3 More Models**
+- With locked methodology
+- Build initial 6-model leaderboard
+- Publish individual model reviews
+
+**4. Launch Static Site**
+- bart-test.mosaicmeshai.com
+- Simple landing page with methodology + leaderboard
+- S3 + CloudFront hosting
+
+---
+
+### Key Files for Context
+
+**Strategic Planning** (Private):
+- `/Users/bartgottschalk/Projects/mosaic-mesh-strategic-planning/artifacts/02_active_workstreams/bart_test_strategic_plan.md`
+- Complete business strategy, phased rollout, success metrics
+- Read this FIRST in next session for full context
+
+**Blog Drafts** (Private, gitignored):
+- `blog-drafts/01-introducing-the-bart-test.md` - Part 1 (ready)
+- `blog-drafts/02-finding-the-sweet-spot.md` - Part 2 (updated with results)
+- `blog-drafts/03-what-the-teen-judges-said.md` - Part 3 (NEW, draft complete)
+
+**Results** (Public repo):
+- `results/human_reviews_20251217.md` - Teen feedback analysis
+- `results/03_ai_judges_20251215_130645.json` - AI judge scores
+
+**Documentation**:
+- `AI_JUDGES_README.md` - Complete hybrid eval system guide
+- `QUICKSTART_AI_JUDGES.md` - 3-step quick start
+
+---
+
+### Important Context from This Session
+
+**Teen Reviewers:**
+- J (Teen #1): Your daughter, gave "zoo not duck" metaphor
+- R (Teen #2): Your daughter, technical context barrier
+- N (Teen #3): Friend's kid (Jen's son), received $15 Starbucks gift card, approved for using feedback
+
+**Key Insights Discovered:**
+1. "Trying too hard" = universal problem across all OLMo outputs
+2. Slang has a half-life - "no cap" and "vibe" already dated
+3. Emoji currency - 😂😭🔥🥀 are current core set
+4. Natural code-switching > slang density
+5. Asterisks for actions feel artificial
+
+**Strategic Decisions:**
+1. ✅ Benchmark approach (not prompt engineering)
+2. ✅ Hybrid evaluation (AI pre-screen + human validation)
+3. ✅ Brand-building IP (not direct revenue)
+4. ⏳ Canonical prompt decision (pending Experiment 03)
+
+**Business Integration:**
+- Part of Mosaic Mesh AI brand
+- Supports courses, consulting, speaking
+- See mosaicmeshai.com for full context
+- StartUpWebApp fork for Phase 4 interactive platform
+
+---
+
+### Questions to Ask User When Resuming
+
+1. **Ready to run Experiment 03?** (Test GPT/Claude/Gemini with baseline)
+2. **Blog post timing?** Publish now or wait until methodology locked?
+3. **Static site priority?** Build now or after testing 5-6 models?
+4. **Teen recruiter expansion?** Keep current 3 or recruit more?
 
 ---
 
 ## Resources & Links
 
+**Public:**
 - **GitHub Repo**: https://github.com/bart-mosaicmeshai/bart-test
-- **Blog**: https://www.mosaicmeshai.com/blog
-- **Inspiration**: [Simon Willison's OLMo 3 post](https://simonwillison.net/2025/Nov/22/olmo-3/)
-- **Google Sheet**: "LLM Test Reviews 2025-12-07" (user has access)
+- **Business Site**: https://www.mosaicmeshai.com
+- **About**: https://www.mosaicmeshai.com/about
+- **Courses**: https://www.mosaicmeshai.com/ai-courses
+- **Services**: https://www.mosaicmeshai.com/services
+
+**Private:**
+- **Strategic Plan**: `/Users/bartgottschalk/Projects/mosaic-mesh-strategic-planning/artifacts/02_active_workstreams/bart_test_strategic_plan.md`
+- **Blog Drafts**: `blog-drafts/` (gitignored)
+
+**Inspiration:**
+- [Simon Willison's OLMo 3 post](https://simonwillison.net/2025/Nov/22/olmo-3/)
 
 ---
 
-**Last Updated**: December 7, 2024
-**Next Session**: Analyze teen judge results or start AI judges experiment
+**Last Updated**: December 17, 2024
+**Next Session Start**: Read strategic plan first, then ask about Experiment 03
