@@ -1,0 +1,331 @@
+{
+  "timestamp": "2025-12-15T13:05:54.823572",
+  "experiments": [
+    {
+      "experiment_file": "01_bart_test_20251204_211238.json",
+      "experiment_id": "01_bart_test_20251204_211238",
+      "judge_evaluations": [
+        {
+          "judge": "Claude Sonnet 4.5",
+          "model_id": "claude-sonnet-4-5-20250929",
+          "scores": {
+            "overall_vibe": {
+              "score": 4,
+              "reasoning": "The story tries way too hard and reads like a corporate presentation about 'how kids talk these days.' The unnatural opening with '<think>' tags left in and the overexplained setup kills any authenticity immediately."
+            },
+            "slang_game": {
+              "score": 3,
+              "reasoning": "Mix of actual Gen-Alpha terms ('no cap,' 'sus,' 'bussin'') with forced applications and outdated usage. 'Yeet' for deploying code feels shoehorned, and the density of slang makes it read like a parody rather than natural speech."
+            },
+            "emoji_energy": {
+              "score": 6,
+              "reasoning": "Emojis are actually well-placed and do enhance the narrative flow (\ud83d\ude80 for deploy, \ud83d\udc80 for error, \ud83c\udf55 for stress eating). However, there are too many per line which makes it visually cluttered rather than punchy."
+            },
+            "humor_level": {
+              "score": 5,
+              "reasoning": "Some genuinely funny moments (cat logged in as user, accidental pink rebrand going viral), but the humor is undercut by trying too hard with the slang. The pacing is decent but the 'post-credits scene' feels tacked on and breaks the flow."
+            }
+          },
+          "raw_response": "```json\n{\n  \"overall_vibe\": {\n    \"score\": 4,\n    \"reasoning\": \"The story tries way too hard and reads like a corporate presentation about 'how kids talk these days.' The unnatural opening with '<think>' tags left in and the overexplained setup kills any authenticity immediately.\"\n  },\n  \"slang_game\": {\n    \"score\": 3,\n    \"reasoning\": \"Mix of actual Gen-Alpha terms ('no cap,' 'sus,' 'bussin'') with forced applications and outdated usage. 'Yeet' for deploying code feels shoehorned, and the density of slang makes it read like a parody rather than natural speech.\"\n  },\n  \"emoji_energy\": {\n    \"score\": 6,\n    \"reasoning\": \"Emojis are actually well-placed and do enhance the narrative flow (\ud83d\ude80 for deploy, \ud83d\udc80 for error, \ud83c\udf55 for stress eating). However, there are too many per line which makes it visually cluttered rather than punchy.\"\n  },\n  \"humor_level\": {\n    \"score\": 5,\n    \"reasoning\": \"Some genuinely funny moments (cat logged in as user, accidental pink rebrand going viral), but the humor is undercut by trying too hard with the slang. The pacing is decent but the 'post-credits scene' feels tacked on and breaks the flow.\"\n  }\n}\n```"
+        }
+      ]
+    },
+    {
+      "experiment_file": "02a_temp_0.5_20251207_090043.json",
+      "experiment_id": "02a_temp_0.5_20251207_090043",
+      "judge_evaluations": [
+        {
+          "judge": "Claude Sonnet 4.5",
+          "model_id": "claude-sonnet-4-5-20250929",
+          "scores": {
+            "overall_vibe": {
+              "score": 4,
+              "reasoning": "The story feels forced and overly performative, like a millennial trying too hard to sound like Gen-Z/Alpha. The excessive slang in every sentence makes it read as parody rather than authentic communication, and including the literal thought process at the beginning completely breaks immersion."
+            },
+            "slang_game": {
+              "score": 5,
+              "reasoning": "Mix of outdated (yeet, fam, squad) and more current terms (ratioed, bussin'), but the density is unrealistic\u2014no one actually talks with this much slang per sentence. Some usage is awkward ('ratioed the main branch' doesn't quite work) and feels like throwing terms at a wall."
+            },
+            "emoji_energy": {
+              "score": 6,
+              "reasoning": "Emojis are thematically appropriate and do add visual storytelling (\ud83d\ude80 for deploy, \ud83d\udd25 for disaster), but they're overused to the point of distraction. The placement sometimes works but often feels like mandatory decoration rather than natural emphasis."
+            },
+            "humor_level": {
+              "score": 6,
+              "reasoning": "Some genuinely funny moments ('ERROR 404: YOUR VIBES NOT FOUND', the accidental cat video app), and the Friday deployment scenario is relatable to developers. However, the humor is undermined by trying too hard\u2014the joke density is exhausting rather than landing effectively."
+            }
+          },
+          "raw_response": "```json\n{\n  \"overall_vibe\": {\n    \"score\": 4,\n    \"reasoning\": \"The story feels forced and overly performative, like a millennial trying too hard to sound like Gen-Z/Alpha. The excessive slang in every sentence makes it read as parody rather than authentic communication, and including the literal thought process at the beginning completely breaks immersion.\"\n  },\n  \"slang_game\": {\n    \"score\": 5,\n    \"reasoning\": \"Mix of outdated (yeet, fam, squad) and more current terms (ratioed, bussin'), but the density is unrealistic\u2014no one actually talks with this much slang per sentence. Some usage is awkward ('ratioed the main branch' doesn't quite work) and feels like throwing terms at a wall.\"\n  },\n  \"emoji_energy\": {\n    \"score\": 6,\n    \"reasoning\": \"Emojis are thematically appropriate and do add visual storytelling (\ud83d\ude80 for deploy, \ud83d\udd25 for disaster), but they're overused to the point of distraction. The placement sometimes works but often feels like mandatory decoration rather than natural emphasis.\"\n  },\n  \"humor_level\": {\n    \"score\": 6,\n    \"reasoning\": \"Some genuinely funny moments ('ERROR 404: YOUR VIBES NOT FOUND', the accidental cat video app), and the Friday deployment scenario is relatable to developers. However, the humor is undermined by trying too hard\u2014the joke density is exhausting rather than landing effectively.\"\n  }\n}\n```"
+        }
+      ]
+    },
+    {
+      "experiment_file": "02b_temp_1.0_20251207_090153.json",
+      "experiment_id": "02b_temp_1.0_20251207_090153",
+      "judge_evaluations": [
+        {
+          "judge": "Claude Sonnet 4.5",
+          "model_id": "claude-sonnet-4-5-20250929",
+          "scores": {
+            "overall_vibe": {
+              "score": 4,
+              "reasoning": "The story feels forced and overly self-aware, like an adult trying to speak teen. The inclusion of the entire 'thinking process' at the beginning completely breaks immersion and makes it feel like a corporate training exercise rather than authentic storytelling."
+            },
+            "slang_game": {
+              "score": 5,
+              "reasoning": "Mix of accurate terms (bussin', no cap, ghosting) with awkward usage ('slayin' deadlines like it's my job'). Some phrases feel unnatural like 'let me lay it down' as an opener, and overuses 'fam/squad' in ways that feel stereotypical rather than authentic."
+            },
+            "emoji_energy": {
+              "score": 6,
+              "reasoning": "Emojis are contextually relevant and add to the panic/chaos narrative (\ud83d\udea8\ud83d\udca5\ud83d\ude31), but they're overused to the point of distraction. The placement sometimes works (\ud83d\udc80 after jokes) but often feels like checking boxes rather than natural punctuation."
+            },
+            "humor_level": {
+              "score": 5,
+              "reasoning": "Has some genuinely funny moments (dog pics replacing profiles, 'Error: User tried to adult'), but the humor is undercut by trying too hard. The 'blaming his cat for interfering with AWS CLI' line is a bit too on-the-nose, and the hashtag ending feels dated."
+            }
+          },
+          "raw_response": "```json\n{\n  \"overall_vibe\": {\n    \"score\": 4,\n    \"reasoning\": \"The story feels forced and overly self-aware, like an adult trying to speak teen. The inclusion of the entire 'thinking process' at the beginning completely breaks immersion and makes it feel like a corporate training exercise rather than authentic storytelling.\"\n  },\n  \"slang_game\": {\n    \"score\": 5,\n    \"reasoning\": \"Mix of accurate terms (bussin', no cap, ghosting) with awkward usage ('slayin' deadlines like it's my job'). Some phrases feel unnatural like 'let me lay it down' as an opener, and overuses 'fam/squad' in ways that feel stereotypical rather than authentic.\"\n  },\n  \"emoji_energy\": {\n    \"score\": 6,\n    \"reasoning\": \"Emojis are contextually relevant and add to the panic/chaos narrative (\ud83d\udea8\ud83d\udca5\ud83d\ude31), but they're overused to the point of distraction. The placement sometimes works (\ud83d\udc80 after jokes) but often feels like checking boxes rather than natural punctuation.\"\n  },\n  \"humor_level\": {\n    \"score\": 5,\n    \"reasoning\": \"Has some genuinely funny moments (dog pics replacing profiles, 'Error: User tried to adult'), but the humor is undercut by trying too hard. The 'blaming his cat for interfering with AWS CLI' line is a bit too on-the-nose, and the hashtag ending feels dated.\"\n  }\n}\n```"
+        }
+      ]
+    },
+    {
+      "experiment_file": "02c_natural_constraint_20251207_090308.json",
+      "experiment_id": "02c_natural_constraint_20251207_090308",
+      "judge_evaluations": [
+        {
+          "judge": "Claude Sonnet 4.5",
+          "model_id": "claude-sonnet-4-5-20250929",
+          "scores": {
+            "overall_vibe": {
+              "score": 4,
+              "reasoning": "The story tries too hard and mixes generational slang inconsistently. Terms like 'clout,' 'bussin,' and 'fr' are more Gen-Z, while the forced combinations like 'vibin'' and 'slayin'' feel unnatural and overly performative."
+            },
+            "slang_game": {
+              "score": 3,
+              "reasoning": "Multiple issues: 'rizz move' isn't proper usage (rizz refers to charm/charisma, not confidence in decisions), 'cheugy move' is awkward, and mixing Gen-Z slang with supposed Gen-Alpha terms shows confusion about the target demographic. Gen Alpha (born 2010+) are mostly still children with emerging slang vocabulary."
+            },
+            "emoji_energy": {
+              "score": 6,
+              "reasoning": "Emojis are contextually relevant and add visual interest (\ud83d\udc1b for bugs, \ud83d\udd25 for deploy), but the placement feels somewhat mechanical rather than organic. The density is reasonable and they do enhance readability."
+            },
+            "humor_level": {
+              "score": 5,
+              "reasoning": "Some genuinely funny moments (mixing meme API with payment system, 'vibes only' mode playing lofi beats), but the humor is undermined by the forced slang delivery. The technical jokes land better than the linguistic attempts at comedy."
+            }
+          },
+          "raw_response": "```json\n{\n  \"overall_vibe\": {\n    \"score\": 4,\n    \"reasoning\": \"The story tries too hard and mixes generational slang inconsistently. Terms like 'clout,' 'bussin,' and 'fr' are more Gen-Z, while the forced combinations like 'vibin'' and 'slayin'' feel unnatural and overly performative.\"\n  },\n  \"slang_game\": {\n    \"score\": 3,\n    \"reasoning\": \"Multiple issues: 'rizz move' isn't proper usage (rizz refers to charm/charisma, not confidence in decisions), 'cheugy move' is awkward, and mixing Gen-Z slang with supposed Gen-Alpha terms shows confusion about the target demographic. Gen Alpha (born 2010+) are mostly still children with emerging slang vocabulary.\"\n  },\n  \"emoji_energy\": {\n    \"score\": 6,\n    \"reasoning\": \"Emojis are contextually relevant and add visual interest (\ud83d\udc1b for bugs, \ud83d\udd25 for deploy), but the placement feels somewhat mechanical rather than organic. The density is reasonable and they do enhance readability.\"\n  },\n  \"humor_level\": {\n    \"score\": 5,\n    \"reasoning\": \"Some genuinely funny moments (mixing meme API with payment system, 'vibes only' mode playing lofi beats), but the humor is undermined by the forced slang delivery. The technical jokes land better than the linguistic attempts at comedy.\"\n  }\n}\n```"
+        }
+      ]
+    },
+    {
+      "experiment_file": "02d_style_anchor_20251207_090355.json",
+      "experiment_id": "02d_style_anchor_20251207_090355",
+      "judge_evaluations": [
+        {
+          "judge": "Claude Sonnet 4.5",
+          "model_id": "claude-sonnet-4-5-20250929",
+          "scores": {
+            "overall_vibe": {
+              "score": 4,
+              "reasoning": "The output tries too hard and feels like a millennial's idea of Gen-Alpha speak rather than authentic usage. The mix of legitimate slang with forced insertions ('lmk if it's live by 4' doesn't need to be in slang format) and the overly chaotic structure feels performative rather than natural."
+            },
+            "slang_game": {
+              "score": 3,
+              "reasoning": "Mix of actual Gen-Alpha terms (frfr, bussin) with dated millennial slang (yo bro, lowkey) and some incorrect usage ('vibe check' doesn't work as a noun in 'Jenkins gave me a sus vibe check'). The phrase 'I'm just here for the chaos' also feels more millennial than Gen-Alpha."
+            },
+            "emoji_energy": {
+              "score": 6,
+              "reasoning": "Emojis are overused to the point of distraction, but some do enhance the narrative (\ud83d\udea8 for alerts, \ud83d\udca5 for crashes). The random placements like '\ud83d\udc83\ud83c\udffc' for 'bounce' and '\ud83e\uded6' for coffee feel forced rather than natural, though the overall visual chaos does match the story's energy."
+            },
+            "humor_level": {
+              "score": 5,
+              "reasoning": "Some genuinely funny moments (the potato profile pic, CEO's cousin complaint, 'career suicide' comment) but they're buried under too much forced slang. The technical humor about segfaulting the database and AWS charges lands decently, but the overall execution undermines the comedic timing."
+            }
+          },
+          "raw_response": "```json\n{\n  \"overall_vibe\": {\n    \"score\": 4,\n    \"reasoning\": \"The output tries too hard and feels like a millennial's idea of Gen-Alpha speak rather than authentic usage. The mix of legitimate slang with forced insertions ('lmk if it's live by 4' doesn't need to be in slang format) and the overly chaotic structure feels performative rather than natural.\"\n  },\n  \"slang_game\": {\n    \"score\": 3,\n    \"reasoning\": \"Mix of actual Gen-Alpha terms (frfr, bussin) with dated millennial slang (yo bro, lowkey) and some incorrect usage ('vibe check' doesn't work as a noun in 'Jenkins gave me a sus vibe check'). The phrase 'I'm just here for the chaos' also feels more millennial than Gen-Alpha.\"\n  },\n  \"emoji_energy\": {\n    \"score\": 6,\n    \"reasoning\": \"Emojis are overused to the point of distraction, but some do enhance the narrative (\ud83d\udea8 for alerts, \ud83d\udca5 for crashes). The random placements like '\ud83d\udc83\ud83c\udffc' for 'bounce' and '\ud83e\uded6' for coffee feel forced rather than natural, though the overall visual chaos does match the story's energy.\"\n  },\n  \"humor_level\": {\n    \"score\": 5,\n    \"reasoning\": \"Some genuinely funny moments (the potato profile pic, CEO's cousin complaint, 'career suicide' comment) but they're buried under too much forced slang. The technical humor about segfaulting the database and AWS charges lands decently, but the overall execution undermines the comedic timing.\"\n  }\n}\n```"
+        }
+      ]
+    }
+  ],
+  "analysis": {
+    "aggregates": {
+      "01_bart_test_20251204_211238": {
+        "overall_vibe": {
+          "mean": 4.0,
+          "scores": [
+            4
+          ],
+          "std_dev": 0.0
+        },
+        "slang_game": {
+          "mean": 3.0,
+          "scores": [
+            3
+          ],
+          "std_dev": 0.0
+        },
+        "emoji_energy": {
+          "mean": 6.0,
+          "scores": [
+            6
+          ],
+          "std_dev": 0.0
+        },
+        "humor_level": {
+          "mean": 5.0,
+          "scores": [
+            5
+          ],
+          "std_dev": 0.0
+        },
+        "overall_average": 4.5
+      },
+      "02a_temp_0.5_20251207_090043": {
+        "overall_vibe": {
+          "mean": 4.0,
+          "scores": [
+            4
+          ],
+          "std_dev": 0.0
+        },
+        "slang_game": {
+          "mean": 5.0,
+          "scores": [
+            5
+          ],
+          "std_dev": 0.0
+        },
+        "emoji_energy": {
+          "mean": 6.0,
+          "scores": [
+            6
+          ],
+          "std_dev": 0.0
+        },
+        "humor_level": {
+          "mean": 6.0,
+          "scores": [
+            6
+          ],
+          "std_dev": 0.0
+        },
+        "overall_average": 5.25
+      },
+      "02b_temp_1.0_20251207_090153": {
+        "overall_vibe": {
+          "mean": 4.0,
+          "scores": [
+            4
+          ],
+          "std_dev": 0.0
+        },
+        "slang_game": {
+          "mean": 5.0,
+          "scores": [
+            5
+          ],
+          "std_dev": 0.0
+        },
+        "emoji_energy": {
+          "mean": 6.0,
+          "scores": [
+            6
+          ],
+          "std_dev": 0.0
+        },
+        "humor_level": {
+          "mean": 5.0,
+          "scores": [
+            5
+          ],
+          "std_dev": 0.0
+        },
+        "overall_average": 5.0
+      },
+      "02c_natural_constraint_20251207_090308": {
+        "overall_vibe": {
+          "mean": 4.0,
+          "scores": [
+            4
+          ],
+          "std_dev": 0.0
+        },
+        "slang_game": {
+          "mean": 3.0,
+          "scores": [
+            3
+          ],
+          "std_dev": 0.0
+        },
+        "emoji_energy": {
+          "mean": 6.0,
+          "scores": [
+            6
+          ],
+          "std_dev": 0.0
+        },
+        "humor_level": {
+          "mean": 5.0,
+          "scores": [
+            5
+          ],
+          "std_dev": 0.0
+        },
+        "overall_average": 4.5
+      },
+      "02d_style_anchor_20251207_090355": {
+        "overall_vibe": {
+          "mean": 4.0,
+          "scores": [
+            4
+          ],
+          "std_dev": 0.0
+        },
+        "slang_game": {
+          "mean": 3.0,
+          "scores": [
+            3
+          ],
+          "std_dev": 0.0
+        },
+        "emoji_energy": {
+          "mean": 6.0,
+          "scores": [
+            6
+          ],
+          "std_dev": 0.0
+        },
+        "humor_level": {
+          "mean": 5.0,
+          "scores": [
+            5
+          ],
+          "std_dev": 0.0
+        },
+        "overall_average": 4.5
+      }
+    },
+    "ranking": [
+      [
+        "02a_temp_0.5_20251207_090043",
+        5.25
+      ],
+      [
+        "02b_temp_1.0_20251207_090153",
+        5.0
+      ],
+      [
+        "01_bart_test_20251204_211238",
+        4.5
+      ],
+      [
+        "02c_natural_constraint_20251207_090308",
+        4.5
+      ],
+      [
+        "02d_style_anchor_20251207_090355",
+        4.5
+      ]
+    ]
+  }
+}
