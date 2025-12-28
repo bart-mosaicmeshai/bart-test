@@ -1,5 +1,7 @@
 # The Bart Test
 
+> **Note (January 2025):** The Bart Test methodology is being redesigned based on learnings from initial experiments. This document describes the original approach used in Experiments 01-02. See the [blog series](https://www.mosaicmeshai.com/blog) (launching Jan 7, 2025) for the full story of the pivot and new validation approach.
+
 ## Overview
 A signature test for evaluating LLM reasoning, creativity, and cultural understanding through a blend of technical storytelling, Gen-Alpha slang, and emoji narrative.
 

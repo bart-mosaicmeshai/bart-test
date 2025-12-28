@@ -1,0 +1,11 @@
+{
+  "model": "Claude Opus 4.5",
+  "model_id": "claude-opus-4-5-20251101",
+  "prompt": "Tell the story of a developer deploying code to production on a Friday afternoon (and something goes wrong) using Gen-Alpha slang and emojis. Make it realistic and funny.",
+  "temperature": 0.7,
+  "max_tokens": 8192,
+  "response": "# The Friday Deploy Saga \ud83d\udc80\n\nYo so basically our boy DevDan said \"bet, I'm pushing this to prod real quick\" at like 4:47pm on a FRIDAY \ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\n\nThe whole Slack channel was like \"bro that's lowkey not the move\" but he was already in his main character era, talking about \"it's just a small CSS fix, no cap\" \ud83d\udc85\n\n**4:52pm** - He hits deploy and goes \"gg ez, I'm so sigma for this\" \n\n**4:53pm** - The monitoring dashboard starts looking absolutely unhinged \ud83d\udcc8\ud83d\udcc9\ud83d\udcc8\ud83d\udcc9\n\n**4:54pm** - DevDan: \"wait why is CPU at 100% this is giving me the ick\" \ud83d\ude30\n\nThe senior dev Sarah comes back from getting her Stanley cup filled and she's like \"what in the actual skibidi is happening to our servers rn\" \n\nDevDan checking the logs and they're just ERROR ERROR ERROR and he's sitting there like \ud83e\uddcd\u200d\u2642\ufe0f \"this is not very demure of my code\"\n\n**5:15pm** - Product manager slides in like \"the app is cooked fr fr, customers are MEWING about it on Twitter\" and DevDan's soul left his body no cap \ud83d\udc80\n\n**5:47pm** - Finally rolls back, everything's mid again (normal)\n\n**Monday standup** - \"So... I have a quick retro item\" \ud83e\udd21\n\nMoral: Friday deploys are NOT bussin, respectfully. That's just Ohio behavior. \ud83d\udeab\ud83e\udde2",
+  "tokens": 373,
+  "duration_seconds": 13.42,
+  "timestamp": "2025-12-18T20:29:56.601409"
+}

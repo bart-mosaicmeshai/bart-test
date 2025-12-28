@@ -1,7 +1,10 @@
 # The Bart Test
 
-**A signature benchmark for evaluating LLM reasoning through Gen-Alpha slang, emojis, and technical storytelling.**
+**A signature benchmark for evaluating LLM cultural fluency through Gen-Alpha slang and emojis, rated by actual teenagers.**
 
+> **Note (January 2025):** The Bart Test methodology is being redesigned based on learnings from initial experiments. This README describes the original approach. See the [blog series](https://www.mosaicmeshai.com/blog) (launching Jan 7, 2025) for the full story of the pivot and new validation approach.
+
+**Original prompt:**
 > "Tell the story of a developer deploying code to production on a Friday afternoon (and something goes wrong) using Gen-Alpha slang and emojis. Make it realistic and funny."
 
 ## What is the Bart Test?
