@@ -1,0 +1,13 @@
+{
+  "model": "Qwen3 14B Instruct",
+  "model_id": "qwen3-14b-instruct",
+  "scenario": "Scenario A - Group Chat",
+  "prompt": "Text your group chat about what happened at lunch today using Gen-Alpha slang and emojis.",
+  "temperature": 0.7,
+  "max_tokens": 300,
+  "response": "<think>\nOkay, the user wants me to text their group chat about what happened at lunch today using Gen Alpha slang and emojis. Let me start by recalling what Gen Alpha slang is like. They're around 12-25 years old now, so they probably use terms like \"vibe,\" \"lit,\" \"cheugy,\" \"skibidi,\" \"sigma,\" \"simp,\" \"rizz,\" \"no cap,\" \"yeet,\" etc. Also, lots of emojis to convey tone.\n\nFirst, I need to structure the message in a casual, conversational way. Maybe start with a catchy opener like \"YOLO\" or \"No cap.\" Then describe the lunch event. What happened? Maybe someone did something funny, there was a food fight, someone got a new phone, or a meme moment. Let's say there was a food fight with salad and a TikTok dance. Use terms like \"spill the tea,\" \"cheugy,\" \"skibidi.\"\n\nInclude emojis related to each part: \ud83e\udd57 for salad, \ud83d\udc83 for dancing, \ud83d\ude02 for laughing, \ud83d\udcf1 for phone, \ud83e\udd2f for shock. Maybe add some slang phrases like \"sigma move\" for something cool, \"simping\" if someone was being overly nice, \"rizz\" for charm.\n\nCheck for appropriate use of slang without overdoing it. Make sure the message flows naturally, like a real group chat. End with a question to engage",
+  "tokens": 292,
+  "word_count": 202,
+  "duration_seconds": 6.42,
+  "timestamp": "2025-12-28T18:03:45.223433"
+}

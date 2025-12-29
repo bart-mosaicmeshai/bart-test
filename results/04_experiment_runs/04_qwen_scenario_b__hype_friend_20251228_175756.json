@@ -1,0 +1,13 @@
+{
+  "model": "Qwen3 14B Instruct",
+  "model_id": "qwen3-14b-instruct",
+  "scenario": "Scenario B - Hype Friend",
+  "prompt": "Hype up your friend who just got a good grade using Gen-Alpha slang and emojis. Keep it brief (no more than a few sentences).",
+  "temperature": 0.7,
+  "max_tokens": 300,
+  "response": "<think>\nOkay, the user wants to hype up their friend who got a good grade, but they want it in Gen-Alpha slang with emojis and keep it short. Let me start by recalling what Gen-Alpha slang is like. They're kids born around 2010 onwards, so they use terms like \"vibe,\" \"lit,\" \"slay,\" maybe some internet jargon.\n\nFirst, I need to make sure the message is enthusiastic. Words like \"GOAT\" (Greatest Of All Time) might be good, but I should check if that's still used. Also, phrases like \"no cap\" are common. Emojis should be relevant\u2014maybe a rocket for success, confetti, trophy.\n\nI need to keep it brief. Maybe start with something like \"NO CAP, YOU SLAYED THAT TEST \ud83d\ude0e\ud83d\udd25\" Then add a bit about the grade being lit and a celebration emoji. End with a flex or a high-five emoji. Let me piece that together concisely. Check for slang accuracy and make sure it's not too long.\n</think>\n\nNO CAP, YOU SLAYED THAT TEST \ud83d\ude0e\ud83d\udd25 \ud83d\udcc8\u2728 That grade is *lit* AF, my guy! \ud83e\udd47\ud83c\udf89 Time to flex that brain muscle \ud83d\udcaa\ud83e\udde0 and let the confetti drop \ud83c\udf89\ud83d\udca5\u2014you\u2019re THE GOAT, fam! \ud83d\udc10\ud83d\udc51",
+  "tokens": 275,
+  "word_count": 191,
+  "duration_seconds": 6.04,
+  "timestamp": "2025-12-28T17:58:08.761147"
+}

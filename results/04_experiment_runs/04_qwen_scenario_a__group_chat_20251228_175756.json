@@ -1,0 +1,13 @@
+{
+  "model": "Qwen3 14B Instruct",
+  "model_id": "qwen3-14b-instruct",
+  "scenario": "Scenario A - Group Chat",
+  "prompt": "Text your group chat about what happened at lunch today using Gen-Alpha slang and emojis. Keep it brief (no more than a few sentences).",
+  "temperature": 0.7,
+  "max_tokens": 300,
+  "response": "<think>\nOkay, the user wants me to text their group chat about what happened at lunch using Gen Alpha slang and emojis, keeping it brief. Let me start by recalling what Gen Alpha slang is like. They use terms like \"lit,\" \"vibe check,\" \"cheugy,\" maybe some phrases from TikTok or recent trends.\n\nFirst, the main event at lunch. Maybe something relatable, like a funny incident or a meme moment. Let's say someone spilled food, which is common and can be humorous. Using \"spill the tea\" as a hook. Then add some emojis: \ud83d\udca6 for the spill, \ud83c\udf54 for food, \ud83d\ude02 for laughter.\n\nNext, mention the aftermath. Maybe someone tried to clean it up but made it worse. Use \"messaged the chaos\" with \ud83e\uddfc and \ud83e\uddf9 emojis. Then add a joke about the cleanup being worse than the spill, using \"cheugy\" to describe the attempt. \ud83e\udd22 emoji for grossness.\n\nEnd with a question to engage the group, like asking if they saw it, using \"vibe check\" and \ud83d\udc40 emoji. Keep sentences short and punchy. Check for brevity, make sure it's a few sentences, no longer. Add some extra emojis for flair, maybe \ud83c\udf2a\ufe0f for drama. Let me put it all together concisely.\n</think>\n\nLunch was *lit* but my bf spilled sauce on their shirt \ud83d\ude02",
+  "tokens": 286,
+  "word_count": 214,
+  "duration_seconds": 6.44,
+  "timestamp": "2025-12-28T17:58:02.715948"
+}

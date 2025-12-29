@@ -1,0 +1,13 @@
+{
+  "model": "Qwen3 14B Instruct",
+  "model_id": "qwen3-14b-instruct",
+  "scenario": "Scenario B - Hype Friend",
+  "prompt": "Hype up your friend who just got a good grade using Gen-Alpha slang and emojis. Keep the response brief.",
+  "temperature": 0.7,
+  "max_tokens": 300,
+  "response": "<think>\nOkay, the user wants to hype up their friend for getting a good grade, using Gen-Alpha slang and emojis. Let me start by recalling what Gen-Alpha slang is like. They're kids born around 2010 onwards, so they use terms like \"lit,\" \"vibe,\" \"slay,\" \"cheugy\" (though that's more of a meme), \"no cap,\" \"for real,\" and maybe some TikTok or social media jargon.\n\nI need to keep it brief. Maybe start with an emoji reaction. Like \ud83c\udf89\ud83d\udd25. Then use phrases like \"NO CAP\" to emphasize sincerity. Words like \"slay\" or \"lit\" could work. Also, include some emojis related to school, like books \ud83d\udcda or grades \ud83d\udcc8. Maybe add a flex emoji \ud83d\udcaa or something trendy.\n\nAvoid older slang. Make sure it's upbeat and energetic. Maybe use \"vibes\" or \"goat\" (though goat is more of a meme term). Also, check if terms like \"cheugy\" are appropriate here. Probably not necessary. Focus on positive reinforcement.\n\nPutting it all together: Start with excitement emojis, use \"NO CAP\" to stress the realness, mention slaying or acing the grade, add some relevant emojis, and maybe a final boost with something like \"stay lit\" or \"keep that A-game.\" Keep sentences short and punchy.\n</think>\n\n\ud83c\udf89\ud83d\udd25",
+  "tokens": 293,
+  "word_count": 199,
+  "duration_seconds": 6.28,
+  "timestamp": "2025-12-28T18:02:18.803912"
+}

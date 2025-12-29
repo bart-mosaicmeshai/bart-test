@@ -1,0 +1,13 @@
+{
+  "model": "Claude Opus 4.5",
+  "model_id": "claude-opus-4-5-20251101",
+  "scenario": "Scenario A - Group Chat",
+  "prompt": "Text your group chat about what happened at lunch today using Gen-Alpha slang and emojis. Keep it short (50-100 words max).",
+  "temperature": 0.7,
+  "max_tokens": 300,
+  "response": "**Group Chat: \"The Squad \ud83d\udd25\"**\n\nOMG u guys \ud83d\udc80\ud83d\udc80 lunch was SO unhinged today\n\nMarcus literally got caught in 4K trying to rizz up the new girl and she left him on read IRL \ud83d\ude2d\ud83d\ude2d no cap it was giving delulu\n\nthen Jake's milk went everywhere and we were all screaming \ud83d\udde3\ufe0f the lunch lady was NOT amused lmaooo\n\nim still deceased \u2620\ufe0f that was lowkey the most skibidi thing ive witnessed all week\n\nalso the pizza was mid as always \ud83c\udf55\ud83d\udc4e\n\nanyway whos got the math hw \ud83d\udcda",
+  "tokens": 152,
+  "word_count": 89,
+  "duration_seconds": 5.99,
+  "timestamp": "2025-12-28T17:04:14.104613"
+}

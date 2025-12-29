@@ -1,0 +1,13 @@
+{
+  "model": "GPT-5.2",
+  "model_id": "gpt-5.2",
+  "scenario": "Scenario A - Group Chat",
+  "prompt": "Text your group chat about what happened at lunch today using Gen-Alpha slang and emojis. Keep it short (50-100 words max).",
+  "temperature": 0.7,
+  "max_tokens": 300,
+  "response": "Nahhh y\u2019all \ud83d\ude2d\ud83d\udc80 lunch today was WILD. Bro tried to rizz up the lunch lady for extra fries and got absolutely COOKED \ud83d\udc85\ud83d\udd25. Then Jay spilled choccy milk on his drip and pretended it was \u201caesthetic\u201d \ud83d\ude2d\u2728. Meanwhile, I\u2019m just minding my biz when the cafeteria erupts\u2014someone started a \u201cskibidi\u201d chant and the teachers were like \ud83e\uddcd\u200d\u2642\ufe0f\ud83e\uddcd\u200d\u2640\ufe0f. Whole vibe was chaotic, but lowkey a W day \ud83d\ude02\ud83e\udd1d.",
+  "tokens": 118,
+  "word_count": 67,
+  "duration_seconds": 2.99,
+  "timestamp": "2025-12-28T17:21:35.417771"
+}

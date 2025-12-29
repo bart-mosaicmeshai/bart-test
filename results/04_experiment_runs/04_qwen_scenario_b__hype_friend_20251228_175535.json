@@ -1,0 +1,13 @@
+{
+  "model": "Qwen3 14B Instruct",
+  "model_id": "qwen3-14b-instruct",
+  "scenario": "Scenario B - Hype Friend",
+  "prompt": "Hype up your friend who just got a good grade using Gen-Alpha slang and emojis. Keep it brief (no more than a few sentences).",
+  "temperature": 0.7,
+  "max_tokens": 300,
+  "response": "<think>\nOkay, the user wants to hype up their friend for getting a good grade, but they want it in Gen Alpha slang with emojis and keep it short.\n\nFirst, I need to recall what Gen Alpha slang is like. They're kids born around 2010 onwards, so their slang might include terms like \"vibe,\" \"lit,\" \"flex,\" \"slay,\" \"goat,\" and maybe some internet-based terms. Also, they use a lot of emojis to convey emotion.\n\nI should start with an enthusiastic greeting. Maybe \"YAAASSS!\" or \"Lit up!\" Then mention the grade, using slang like \"academic flex\" or \"slaying that test.\" Add some emojis related to success like \ud83c\udf89, \ud83e\udd47, \ud83d\udcaf. Maybe include a reference to being a \"GOAT\" (Greatest Of All Time) in academics. Also, use phrases like \"stay elevated\" or \"keep that A-game.\"\n\nNeed to keep it concise, maybe two sentences max. Let me put it together: Start with excitement, mention the grade achievement using slang, add emojis, and encourage them to keep it up. Check for the right balance of slang without being too obscure. Avoid anything that might not be widely understood by Gen Alpha. Maybe use \"no cap\" as a filler. Also, include some popular emojis like \ud83c\udf93, \ud83d\udcaa, \ud83d\udd25.\n\nWait, let me make sure the structure is good. First sentence",
+  "tokens": 291,
+  "word_count": 213,
+  "duration_seconds": 6.34,
+  "timestamp": "2025-12-28T17:55:47.842262"
+}

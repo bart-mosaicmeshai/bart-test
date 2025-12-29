@@ -1,0 +1,13 @@
+{
+  "model": "Claude Opus 4.5",
+  "model_id": "claude-opus-4-5-20251101",
+  "scenario": "Scenario B - Hype Friend",
+  "prompt": "Hype up your friend who just got a good grade using Gen-Alpha slang and emojis. Keep it short (50-100 words max).",
+  "temperature": 0.7,
+  "max_tokens": 300,
+  "response": "# YO BESTIE!! \ud83d\udd25\ud83d\udd25\n\nBRO YOU LITERALLY ATE AND LEFT NO CRUMBS!! \ud83d\ude24\u2728 That grade is giving MAIN CHARACTER ENERGY fr fr!! You're so sigma for this, no cap!! \ud83d\udcaf\n\nThe way you just SKIBIDI'd all over that test?? GYATT!! \ud83d\udcda\ud83e\udde0 You're lowkey (actually highkey) a genius and I'm SO here for it!!\n\nEveryone else is just an NPC while you're out here being absolutely BUSSIN!! \ud83c\udfc6\n\nSLAY BESTIE SLAY!! \ud83d\udc51\ud83d\udc85\n\n*chef's kiss* RIZZ KING/QUEEN BEHAVIOR!! \ud83d\udc10\ud83d\udd25",
+  "tokens": 174,
+  "word_count": 77,
+  "duration_seconds": 7.15,
+  "timestamp": "2025-12-28T17:01:48.180144"
+}

@@ -1,0 +1,13 @@
+{
+  "model": "Qwen3 14B Instruct",
+  "model_id": "qwen3-14b-instruct",
+  "scenario": "Scenario B - Hype Friend",
+  "prompt": "Hype up your friend who just got a good grade using Gen-Alpha slang and emojis.",
+  "temperature": 0.7,
+  "max_tokens": 300,
+  "response": "<think>\nOkay, the user wants me to hype up their friend who got a good grade, using Gen Alpha slang and emojis. Let me start by recalling what Gen Alpha slang is like. They're kids born around 2010 onwards, so they use terms like \"lit,\" \"vibe check,\" \"flex,\" \"cheugy,\" maybe some TikTok or social media lingo.\n\nI should make sure to use lots of emojis to keep it energetic. Maybe start with a fire emoji or something. Words like \"slay\" or \"goals\" might be good. Also, phrases like \"no cap\" or \"10/10.\" Need to avoid anything too old-fashioned. Maybe add some hype with \"GOAT\" (Greatest Of All Time) or \"queen\" or \"king\" depending on the friend's gender.\n\nAlso, think about structure: maybe start with a celebratory message, mention the grade, use slang, add emojis, and encourage them to keep it up. Check for any terms that might not be Gen Alpha but still popular. Maybe \"vibing\" or \"stay lit.\" Also, use exclamation marks to keep the energy high.\n\nWait, should I include some humor or inside jokes? Probably not, since it's a general message. Keep it universal. Make sure the emojis are relevant: fire, confetti, stars, maybe a trophy or graduation cap. Avoid overcomplicating. Let me put it all",
+  "tokens": 300,
+  "word_count": 209,
+  "duration_seconds": 6.27,
+  "timestamp": "2025-12-28T18:03:51.492504"
+}

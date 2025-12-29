@@ -1,0 +1,13 @@
+{
+  "model": "Qwen3 14B Instruct",
+  "model_id": "qwen3-14b-instruct",
+  "scenario": "Scenario B - Hype Friend",
+  "prompt": "Hype up your friend who just got a good grade using Gen-Alpha slang and emojis. Write just 2-3 sentences.",
+  "temperature": 0.7,
+  "max_tokens": 300,
+  "response": "<think>\nOkay, the user wants me to hype up their friend who got a good grade using Gen-Alpha slang and emojis. Let me start by recalling what Gen-Alpha slang is like. They're around 10 years old or younger, so their language might include terms like \"lit,\" \"vibe,\" \"flex,\" \"cheugy,\" but maybe also more playful or internet-based terms.\n\nI need to make sure the message is enthusiastic and uses emojis effectively. Maybe start with a fire emoji or something that shows excitement. Words like \"slaying\" or \"10/10\" could work. Also, using phrases like \"no cap\" or \"GOAT\" might be appropriate. I should avoid anything too outdated. Let me check some examples of Gen-Alpha slang to confirm. \n\nThey mentioned 2-3 sentences, so keep it concise. Maybe something like: \"Your grade is lit AF\ud83d\udd25\ud83d\udd25\ud83d\udd25, you\u2019re slaying that academic vibe like a total GOAT \ud83d\udc3a\ud83d\udcaf! No cap, you just flexed so hard, the teachers are speechless \ud83d\ude32\ud83c\udf93\u2728!\" Wait, does \"slaying\" fit? Maybe \"vibe\" is better. Also, check if \"cheugy\" is relevant here. Maybe not necessary. Let me adjust to make sure it's positive and energetic.\n</think>\n\nYour grade is *lit AF*\ud83d\udd25\ud83d\udd25\ud83d\udd25, you\u2019re slaying that academic vibe like a total GOAT",
+  "tokens": 297,
+  "word_count": 196,
+  "duration_seconds": 6.36,
+  "timestamp": "2025-12-28T17:58:37.462460"
+}

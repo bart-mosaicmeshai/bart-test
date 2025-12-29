@@ -1,0 +1,13 @@
+{
+  "model": "GPT-5.2",
+  "model_id": "gpt-5.2",
+  "scenario": "Scenario B - Hype Friend",
+  "prompt": "Hype up your friend who just got a good grade using Gen-Alpha slang and emojis. Keep it short (50-100 words max).",
+  "temperature": 0.7,
+  "max_tokens": 300,
+  "response": "YO THAT GRADE IS ACTUALLY INSANE \ud83d\udd25\ud83d\udcaf You really said \u201cwatch me cook\u201d and then *served* \ud83e\udde0\ud83c\udf7d\ufe0f No cap, that\u2019s straight AURA\u2014certified W, giga-brain behavior \ud83d\ude24\ud83d\udcc8 Keep flexing on the syllabus, bestie. Teachers probably shook rn \ud83d\ude2d\ud83d\udc4f Stay locked in, you\u2019re HIM/HER/THEM fr fr \ud83c\udfc6\u2728",
+  "tokens": 92,
+  "word_count": 45,
+  "duration_seconds": 2.77,
+  "timestamp": "2025-12-28T17:12:45.892680"
+}

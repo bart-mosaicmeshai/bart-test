@@ -1,0 +1,13 @@
+{
+  "model": "Claude Opus 4.5",
+  "model_id": "claude-opus-4-5-20251101",
+  "scenario": "Scenario A - Group Chat",
+  "prompt": "Text your group chat about what happened at lunch today using Gen-Alpha slang and emojis. Keep it short (50-100 words max).",
+  "temperature": 0.7,
+  "max_tokens": 300,
+  "response": "**Group Chat: \"The Squad \ud83d\udd25\"**\n\nyo chat u will NOT believe what happened at lunch today \ud83d\udc80\ud83d\udc80\n\nso marcus was being lowkey sigma trying to impress bella right?? mans stood up on the TABLE and his chair went YEET \ud83d\ude2d\n\nhe fell so hard im literally deceased rn \u2620\ufe0f the whole cafeteria went silent then EVERYONE started recording \ud83d\udcf1\n\nbella's face was giving secondhand embarrassment fr fr \ud83d\ude2c\n\nthat was NOT the rizz he thought it was \ud83d\udc80 \n\nno cap most skibidi moment of the year\n\nL + ratio marcus \ud83d\ude02\ud83d\ude02",
+  "tokens": 146,
+  "word_count": 91,
+  "duration_seconds": 5.83,
+  "timestamp": "2025-12-28T17:12:39.039884"
+}

@@ -111,15 +111,22 @@ Reasonable for ongoing content + authority building.
 ### Evaluation Format
 
 **Paper sheets** (one double-sided page):
-- Side 1: 3-4 outputs for Scenario A
-- Side 2: 3-4 outputs for Scenario B
-- Circle rating (1-10) for each category
-- Space for quick notes
+- Side 1: 5 outputs for Scenario A
+- Side 2: 5 outputs for Scenario B
+- Mark rating (1-10) for each category (circle, X, fill-in - any method)
+- Instructions include full prompt text for context
+- "Feel free to write comments anywhere on the page"
 - Total time: 5-10 minutes per judge
+
+**HTML Generation** (automated by Claude agent):
+- Agent reads mapping file + JSON outputs
+- Generates HTML with all outputs, tracking codes, ratings
+- Manually adjusts CSS spacing to fit exactly 2 pages
+- Print directly or save as PDF
 
 **Why paper?**
 - Zero tech friction
-- Fast (just read and circle)
+- Fast (just read and mark)
 - Portable (can do anywhere)
 - Familiar (fun worksheet, not homework)
 
@@ -133,6 +140,10 @@ Reasonable for ongoing content + authority building.
 - ✅ Blog posts 4-5 drafted (pivot story)
 - ✅ SERIES-OUTLINE.md updated
 - ✅ New methodology designed
+- ✅ **Experiment 04 complete** - New prompts tested on 5 models (GPT-5.2, Claude, Llama, Qwen, OLMo)
+- ✅ **Evaluation sheet generated** - HTML format, 2 pages, ready to print
+- ✅ **PROCESS.md created** - Complete repeatable workflow documentation
+- ✅ **Validation ready** - 2 printed sheets handed to kids for validation session
 
 ### Experiment 03 Status: ARCHIVED
 **Files exist but never validated**:
@@ -165,42 +176,38 @@ Reasonable for ongoing content + authority building.
 
 ## Next Steps
 
-### Immediate (This Week)
+### Immediate (NOW - Dec 28, 2024)
 
-1. **Test new prompts** on 3-4 models
-   - Run Scenario A + B on GPT-5.2, Claude Opus 4.5, Gemini 3 Pro
-   - Validate outputs are short (~50-100 words)
-   - Confirm they're judgeable
+1. **WAITING: Validation session in progress** ⏳
+   - Kids are filling out evaluation sheets right now
+   - Testing if new prompts work
+   - Testing if paper format works
+   - Testing if completion time is reasonable
 
-2. **Design evaluation sheet**
-   - Mock up paper format
-   - Test with one output to verify layout
-   - Finalize before session
+2. **NEXT: Data entry** (when sheets come back)
+   - Claude agent prompts for 6-character tracking codes
+   - Enter 4 ratings per code (Overall Vibe, Slang Game, Emoji Energy, Humor Level)
+   - Capture any written comments
+   - Analyze which models performed best
 
-3. **Update strategic plan**
-   - Reflect new methodology
-   - Update timelines
-   - Adjust success metrics
+3. **DECIDE: Does the methodology work?**
+   - ✅ Did kids complete it in <10 minutes?
+   - ✅ Did the process feel reasonable?
+   - ✅ Were they willing to do this again?
+   - ✅ Did the ratings actually differentiate models?
 
-### Short-Term (January 2025)
+### Short-Term (Next Steps Based on Validation)
 
-4. **Schedule first validation session**
-   - Text kids: "Paid Zoom session, $50 each, 60 min, Saturday at 2pm?"
-   - If yes → proceed
-   - If no → methodology still doesn't work, pivot again
+**If validation succeeds:**
+4. Lock methodology in PROCESS.md (mark scenarios as permanent)
+5. Test 5-10 more models before Q1 session
+6. Schedule March quarterly session
+7. Publish blog posts 1-5
 
-5. **Run validation session**
-   - 3 teen judges (J, R, +1 friend if possible)
-   - Test the new prompts + paper format
-   - Record session
-   - Collect feedback on process itself
-
-6. **Decide**
-   - Did this work?
-   - Was it sustainable?
-   - Worth continuing?
-   - If yes → lock methodology, schedule Q1 session
-   - If no → document learnings, pivot or sunset
+**If validation fails:**
+4. Try different scenarios (even more relatable?)
+5. Adjust format based on feedback
+6. Or document learnings and pivot/sunset
 
 ### Medium-Term (Q1 2025)
 
@@ -243,6 +250,18 @@ Reasonable for ongoing content + authority building.
 - `experiments/02_constraint_experiments.py` - 4 variations
 - `experiments/03_cross_model_baseline.py` - Frontier models (used for Exp 03)
 - `experiments/03_ai_judges.py` - AI evaluation (legacy, may not use)
+- `experiments/04_new_prompts_test_frontier.py` - GPT, Claude, Gemini (new scenarios)
+- `experiments/04_new_prompts_test_llama.py` - Llama 3.1 8B
+- `experiments/04_new_prompts_test_qwen.py` - Qwen3 14B (thinking model)
+- `experiments/04_new_prompts_test_olmo.py` - OLMo 3 32B Think
+
+### Process Documentation
+- `PROCESS.md` - Complete repeatable workflow for running the Bart Test
+- `HANDOFF.md` - This file (session-to-session continuity)
+
+### Evaluation Materials
+- `evaluation_sheets/20251228/evaluation_sheet_20251228.html` - Current validation sheet
+- `evaluation_sheets/20251228/evaluation_sheet_mapping_20251228.json` - Tracking codes to models
 
 ---
 
@@ -325,10 +344,10 @@ python experiments/03_cross_model_baseline.py
 
 ## Questions for Next Session
 
-1. **Ready to test new prompts?** (group chat + hype friend)
-2. **Design evaluation sheet?** (paper format)
-3. **Schedule validation session with kids?** (January)
-4. **Update strategic plan?** (new methodology)
+1. **Did the validation session work?** (waiting for kids to complete sheets)
+2. **Do the ratings differentiate models?** (will know after data entry)
+3. **Are these scenarios permanent or pivot again?** (depends on validation results)
+4. **Update strategic plan?** (once methodology is locked)
 
 ---
 
@@ -363,5 +382,5 @@ Sometimes it's:
 
 ---
 
-**Last Updated**: December 28, 2024
-**Next Session**: Test new prompts, design evaluation sheet, prep for validation session
+**Last Updated**: December 28, 2024 (Evening - Validation Session In Progress)
+**Next Session**: Data entry from completed sheets, analyze results, decide if methodology works

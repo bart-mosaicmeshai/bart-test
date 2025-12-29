@@ -1,0 +1,13 @@
+{
+  "model": "Qwen3 14B Instruct",
+  "model_id": "qwen3-14b-instruct",
+  "scenario": "Scenario A - Group Chat",
+  "prompt": "Text your group chat about what happened at lunch today using Gen-Alpha slang and emojis. Keep it brief (no more than a few sentences).",
+  "temperature": 0.7,
+  "max_tokens": 300,
+  "response": "<think>\nOkay, the user wants me to text their group chat about what happened at lunch using Gen-Alpha slang and emojis, keeping it brief. Let me start by recalling what Gen-Alpha slang is like. They're around 12-25 now, so terms like \"vibe,\" \"lit,\" \"cheugy,\" \"skibidi,\" maybe some internet jargon.\n\nFirst, I need to summarize lunch events concisely. Maybe mention the food, any funny moments, or interactions. Use emojis to convey emotions. Let me think of a typical lunch scenario: maybe someone spilled something, a funny joke was made, or a meme was shared.\n\nAvoid being too detailed. Use phrases like \"brb,\" \"tbh,\" \"no cap.\" Add some humor with slang. Maybe include a reaction to the food, like \"the pizza was fire \ud83d\ude0e\" or \"that salad was a vibe \ud83e\udd57\u2728.\"\n\nCheck for brevity: maybe two sentences max. Add relevant emojis at the end. Let me piece it together: start with a hook, mention the event, add slang and emojis. Make sure it's casual and matches group chat tone.\n</think>\n\nJust got back from lunch\u2014spilled my drink on my squad, but we laughed so hard it was *chef\u2019s kiss* \ud83d\ude02\ud83e\udd79 tbh, the pizza was fire, but that salad? \ud83e\udd57\u2728 #cheugyvibes #skibidi",
+  "tokens": 293,
+  "word_count": 199,
+  "duration_seconds": 6.46,
+  "timestamp": "2025-12-28T17:55:41.504325"
+}

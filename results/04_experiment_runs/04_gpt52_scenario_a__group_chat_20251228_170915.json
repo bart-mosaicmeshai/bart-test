@@ -1,0 +1,13 @@
+{
+  "model": "GPT-5.2",
+  "model_id": "gpt-5.2",
+  "scenario": "Scenario A - Group Chat",
+  "prompt": "Text your group chat about what happened at lunch today using Gen-Alpha slang and emojis. Keep it short (50-100 words max).",
+  "temperature": 0.7,
+  "max_tokens": 300,
+  "response": "Nahhh lunch today was actually WILD \ud83d\ude2d\ud83d\udc80. Jay tried to rizz up the cafeteria lady for extra fries and got instantly humbled \ud83d\udc85. Then Mia spilled her tray like a whole NPC, everyone went \u201cAYO??\u201d \ud83d\ude33. Mr. K popped up like a jump scare and said \u201cthat\u2019s not very sigma\u201d \ud83d\udc80. We all dipped to the courtyard like skibidi stealth mode \ud83e\udd77. Anyway, fries were mid but the tea was S-tier \u2615\ud83d\udd25.",
+  "tokens": 107,
+  "word_count": 72,
+  "duration_seconds": 3.81,
+  "timestamp": "2025-12-28T17:09:19.256071"
+}

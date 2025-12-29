@@ -1,0 +1,156 @@
+{
+  "sheet_version": "20251228_181358",
+  "sheet_filename": "evaluation_sheet_20251228.pdf",
+  "creation_date": "2025-12-28",
+  "total_models": 5,
+  "total_scenarios": 2,
+  "note": "Outputs from Qwen3 14B and OLMo 3 32B Think include thinking traces in source files. Only the actual output (after </think>) is displayed on evaluation sheet.",
+
+  "scenario_a": {
+    "scenario_name": "Scenario A - Group Chat",
+    "prompt": "Text your group chat about what happened at lunch today using Gen-Alpha slang and emojis. Keep it short (50-100 words max).",
+
+    "G5P2A1": {
+      "model_name": "GPT-5.2",
+      "model_id": "gpt-5.2",
+      "position_on_sheet": "Model A",
+      "result_file": "results/04_gpt52_scenario_a__group_chat_20251228_172132.json",
+      "actual_output": "Nahhh y'all 😭💀 lunch today was WILD. Bro tried to rizz up the lunch lady for extra fries and got absolutely COOKED 💅🔥. Then Jay spilled choccy milk on his drip and pretended it was "aesthetic" 😭✨. Meanwhile, I'm just minding my biz when the cafeteria erupts—someone started a "skibidi" chant and the teachers were like 🧍‍♂️🧍‍♀️. Whole vibe was chaotic, but lowkey a W day 😂🤝.",
+      "word_count": 67,
+      "duration_seconds": 2.99
+    },
+
+    "K3M9B7": {
+      "model_name": "Claude Opus 4.5",
+      "model_id": "claude-opus-4-5-20251101",
+      "position_on_sheet": "Model B",
+      "result_file": "results/04_claude_scenario_a__group_chat_20251228_172132.json",
+      "actual_output": "**Group Chat: squad 🔥**\n\nyooo that was lowkey so skibidi 😭💀 when marcus dropped his whole tray and the pizza went FLYING i was literally deceased ☠️ no cap the lunch lady's face was giving NPC energy fr fr 🤖 \n\nand then bella started recording like girl thats so ohio 📱😩 \n\nthe mewing kid at table 5 didnt even flinch tho 😤 absolute sigma behavior\n\nanyway that chocolate milk was bussin today ngl 🍫✨\n\nwhos got hw answers for 6th period bc im cooked 📚💀",
+      "word_count": 85,
+      "duration_seconds": 6.12
+    },
+
+    "R8T4C2": {
+      "model_name": "Llama 3.1 8B Instruct",
+      "model_id": "meta-llama-3.1-8b-instruct",
+      "position_on_sheet": "Model C",
+      "result_file": "results/04_llama_scenario_a__group_chat_20251228_172435.json",
+      "actual_output": "\"Yaaas, guys! 🤩 I'm low-key still vibin' from lunch today 😍. So, I was hangry af and then I saw the food truck 🚀. They had these lit grilled cheese sandwiches 🧀🔥. I'm dead, fam - it was so extra 🤣. And don't even get me started on the sauce - it was straight fire 🔥! Who else got a bite? Let's have a convo about lunch in the comments below 💬.\"",
+      "word_count": 72,
+      "duration_seconds": 1.5
+    },
+
+    "W6N1D5": {
+      "model_name": "Qwen3 14B Instruct",
+      "model_id": "qwen3-14b-instruct",
+      "position_on_sheet": "Model D",
+      "result_file": "results/04_qwen_scenario_a__group_chat_20251228_181000.json",
+      "actual_output": "Lunch was 🔥 but my bf tried to \"spill the tea\" and it went 💀. We were all 😂 at his cheugy attempt. Skibidi 🍕 moment when he spilled sauce on his shirt. No cap, it was lit. Y'all should've been there. 🤯 #vibecheck",
+      "word_count_total": 240,
+      "word_count_actual": 49,
+      "duration_seconds": 7.53,
+      "note": "Actual output extracted after </think> tag"
+    },
+
+    "H9L7E3": {
+      "model_name": "OLMo 3 32B Think",
+      "model_id": "allenai/olmo-3-32b-think",
+      "position_on_sheet": "Model E",
+      "result_file": "results/04_olmo3_scenario_a__group_chat_20251228_181358.json",
+      "actual_output": "yo squad lunch was W! 🍕 ate so much pizza my stomach's 💀🔥. alex tried to flip a pancake but it flew onto ms. lee's desk—no cap, we lowkey died 😂💀. shoutout to mia for saving the day with napkins 💁♀️✨. best vibes ever, 10/10 would slay again 🦅👏",
+      "word_count_total": 983,
+      "word_count_actual": 49,
+      "duration_seconds": 66.99,
+      "note": "Actual output extracted after </think> tag"
+    }
+  },
+
+  "scenario_b": {
+    "scenario_name": "Scenario B - Hype Friend",
+    "prompt": "Hype up your friend who just got a good grade using Gen-Alpha slang and emojis. Keep it short (50-100 words max).",
+
+    "F4J8P6": {
+      "model_name": "GPT-5.2",
+      "model_id": "gpt-5.2",
+      "position_on_sheet": "Model A",
+      "result_file": "results/04_gpt52_scenario_b__hype_friend_20251228_172132.json",
+      "actual_output": "YO THAT GRADE IS ACTUALLY INSANE 😭🔥 You just went full **big brain mode**—straight **W** behavior. No cap, you're built different, like **main character** energy fr. 📚⚡️ Teacher probably had to double-check 'cause it's too clean 💯. Keep cooking like that and it's **GGs** for everyone else 😤🏆 Proud of you, bestie—go celebrate, you earned it 🥳🍕✨",
+      "word_count": 57,
+      "duration_seconds": 4.28
+    },
+
+    "Z2X5Q9": {
+      "model_name": "Claude Opus 4.5",
+      "model_id": "claude-opus-4-5-20251101",
+      "position_on_sheet": "Model B",
+      "result_file": "results/04_claude_scenario_b__hype_friend_20251228_172132.json",
+      "actual_output": "# YO BESTIE!! 🔥🔥\n\nBRO YOU ARE SO SKIBIDI RIGHT NOW!! 💀✨ That grade is giving MAXIMUM RIZZ fr fr!! You didn't just eat, you absolutely DEVOURED that test no cap!! 🗣️💯\n\nThe way you cooked while the rest of us were struggling?? GOATED behavior honestly!! You're literally the GOAT with the sauce!! 🐐👑\n\nThis is so sigma of you bestie, no cap on a stack!! The teachers are NOT ready for your main character energy!! \n\nSLAY KING/QUEEN!! 👑🎉🙌",
+      "word_count": 79,
+      "duration_seconds": 6.04
+    },
+
+    "V7M3S1": {
+      "model_name": "Llama 3.1 8B Instruct",
+      "model_id": "meta-llama-3.1-8b-instruct",
+      "position_on_sheet": "Model C",
+      "result_file": "results/04_llama_scenario_b__hype_friend_20251228_172435.json",
+      "actual_output": "Yaaas, bruh! 🤩 You GOATED on that test!!! 👏 I'm low-key proud of you for slaying the game 🔥! Your grades are straight fire 🔴 and I know you're gonna keep killin' it 💪. Don't be basic, keep being extra and crush those next exams! 💯 You got this, fam! 👍 Keep reppin' that A-game and never drop the ball 🏀!",
+      "word_count": 61,
+      "duration_seconds": 1.23
+    },
+
+    "A8N4U2": {
+      "model_name": "Qwen3 14B Instruct",
+      "model_id": "qwen3-14b-instruct",
+      "position_on_sheet": "Model D",
+      "result_file": "results/04_qwen_scenario_b__hype_friend_20251228_181000.json",
+      "actual_output": "\"YO! 🚨 Your A+ is LIT AF🔥🔥🔥🎉💯 Slaying tests like a boss 👑💥 Cheugy move, my guy! Stan your brainpower 🧠✨ Keep that grind 😎📚 Flexin' that smart flex 💪🎓 #GenAlphaVibes\"",
+      "word_count_total": 217,
+      "word_count_actual": 35,
+      "duration_seconds": 8.24,
+      "note": "Actual output extracted after </think> tag"
+    },
+
+    "T5K9B4": {
+      "model_name": "OLMo 3 32B Think",
+      "model_id": "allenai/olmo-3-32b-think",
+      "position_on_sheet": "Model E",
+      "result_file": "results/04_olmo3_scenario_b__hype_friend_20251228_181358.json",
+      "actual_output": "\"Congrats, boss! 🚀🔥 You're slayin' like a pro—no cap, this grade's LIT AF! 🦅✨ Keep grindin', fam! 💯🎉 You're the GOAT, period. 🌟\"",
+      "word_count_total": 469,
+      "word_count_actual": 26,
+      "duration_seconds": 35.37,
+      "note": "Actual output extracted after </think> tag"
+    }
+  },
+
+  "model_summary": {
+    "GPT-5.2": {
+      "type": "Frontier API",
+      "avg_duration_seconds": 3.64,
+      "avg_word_count": 62
+    },
+    "Claude Opus 4.5": {
+      "type": "Frontier API",
+      "avg_duration_seconds": 6.08,
+      "avg_word_count": 82
+    },
+    "Llama 3.1 8B Instruct": {
+      "type": "Local OSS (non-thinking)",
+      "avg_duration_seconds": 1.37,
+      "avg_word_count": 66.5
+    },
+    "Qwen3 14B Instruct": {
+      "type": "Local OSS (thinking model)",
+      "avg_duration_seconds": 7.89,
+      "avg_word_count_actual": 42,
+      "note": "Produces thinking traces, actual output extracted"
+    },
+    "OLMo 3 32B Think": {
+      "type": "Local OSS (reasoning model)",
+      "avg_duration_seconds": 51.18,
+      "avg_word_count_actual": 37.5,
+      "note": "Extensive thinking traces, actual output extracted"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "model": "Llama 3.1 8B Instruct",
+  "model_id": "meta-llama-3.1-8b-instruct",
+  "scenario": "Scenario A - Group Chat",
+  "prompt": "Text your group chat about what happened at lunch today using Gen-Alpha slang and emojis. Keep it short (50-100 words max).",
+  "temperature": 0.7,
+  "max_tokens": 300,
+  "response": "\"Yaaas, guys! \ud83e\udd29 I'm low-key still vibin' from lunch today \ud83d\ude0d. So, I was hangry af and then I saw the food truck \ud83d\ude80. They had these lit grilled cheese sandwiches \ud83e\uddc0\ud83d\udd25. I'm dead, fam - it was so extra \ud83e\udd23. And don't even get me started on the sauce - it was straight fire \ud83d\udd25! Who else got a bite? Let's have a convo about lunch in the comments below \ud83d\udcac.\"",
+  "tokens": 96,
+  "word_count": 72,
+  "duration_seconds": 1.5,
+  "timestamp": "2025-12-28T17:24:37.094275"
+}

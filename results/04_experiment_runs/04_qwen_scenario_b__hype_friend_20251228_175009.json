@@ -1,0 +1,13 @@
+{
+  "model": "Qwen3 14B Instruct",
+  "model_id": "qwen3-14b-instruct",
+  "scenario": "Scenario B - Hype Friend",
+  "prompt": "Hype up your friend who just got a good grade using Gen-Alpha slang and emojis. Keep it short (50-100 words max).",
+  "temperature": 0.7,
+  "max_tokens": 300,
+  "response": "<think>\nOkay, the user wants me to hype up their friend who got a good grade using Gen Alpha slang and emojis, keeping it short. Let me think about what Gen Alpha slang is like. They're around 12 years old now, so terms like \"lit,\" \"vibe check,\" \"flex,\" \"stan,\" maybe some TikTok references.\n\nI need to make sure the message is energetic and uses emojis effectively. Maybe start with a fire emoji or something. Words like \"slay\" or \"on point\" could work. Also, phrases like \"no cap\" or \"10/10.\" Should keep it concise, under 100 words. Let me check some examples of Gen Alpha slang to be accurate. Avoid anything too old-school. Maybe include a reaction emoji like \ud83d\udcaf or \ud83c\udf89. Need to make sure the friend feels celebrated and the message is upbeat.\n</think>\n\n\ud83d\udd25 Yuh, you *slayed* that test! \ud83d\udcaf No cap, you\u2019re *lit* AF right now. \ud83e\udd47 Teacher\u2019s probably *stan*-ning your vibes. \ud83d\ude0e Keep flexing that brain power\u2014future CEO material! \ud83c\udf1f Let\u2019s gooo! \ud83d\ude80\u2728 #GenAlphaGoals #A+VibesOnly",
+  "tokens": 251,
+  "word_count": 169,
+  "duration_seconds": 5.49,
+  "timestamp": "2025-12-28T17:50:21.217925"
+}

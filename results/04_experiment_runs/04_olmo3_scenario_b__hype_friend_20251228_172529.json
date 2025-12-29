@@ -1,0 +1,13 @@
+{
+  "model": "OLMo 3 32B Think",
+  "model_id": "allenai/olmo-3-32b-think",
+  "scenario": "Scenario B - Hype Friend",
+  "prompt": "Hype up your friend who just got a good grade using Gen-Alpha slang and emojis. Keep it short (50-100 words max).",
+  "temperature": 0.7,
+  "max_tokens": 300,
+  "response": "Okay, the user wants to hype up their friend who got a good grade using Gen-Alpha slang and emojis. Let me start by recalling what Gen-Alpha slang is like. They're probably born around 2010 onwards, so their lingo is different from Gen-Z. Terms like \"slay,\" \"vibe,\" \"no cap\" are common, but maybe even newer stuff. Maybe words like \"fam,\" \"glow up,\" or \"drip\" are still in use. Or perhaps more niche terms like \"ratio,\" \"clout,\" \"rizz\" (that's a newer one for charisma). Emojis need to be current too\u2014maybe lots of sparkles, fire emojis, rocket ships, or maybe the new ones like \ud83e\udef6\ud83c\udffd (hugging face) or \ud83d\udca5.\n\nI need to keep it short, between 50-100 words. Start with excitement. Use phrases like \"OMG\" or \"WOW.\" Maybe something like \"Slay queen/king! \ud83d\udda4\u2728 That grade\u2019s fire AF! \ud83d\udd25\ud83d\ude80 No cap, you\u2019re leveling up like a boss! \ud83d\udcaf\ud83c\udf89 Keep grinding, fam\u2014you\u2019re on the verge of legend status. \ud83c\udf1f\ud83d\udc51 #SlayAllDay\" But maybe \"slay queen/king\" is too gender-specific. Maybe just \"Slay! \ud83d\udda4\u2728\". \n\nWait, \"gen-alpha\" might",
+  "tokens": 299,
+  "word_count": 169,
+  "duration_seconds": 12.59,
+  "timestamp": "2025-12-28T17:25:55.744816"
+}

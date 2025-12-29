@@ -1,0 +1,13 @@
+{
+  "model": "Llama 3.1 8B Instruct",
+  "model_id": "meta-llama-3.1-8b-instruct",
+  "scenario": "Scenario B - Hype Friend",
+  "prompt": "Hype up your friend who just got a good grade using Gen-Alpha slang and emojis. Keep it short (50-100 words max).",
+  "temperature": 0.7,
+  "max_tokens": 300,
+  "response": "Yaaas, bruh! \ud83e\udd29 You GOATED on that test!!! \ud83d\udc4f I'm low-key proud of you for slaying the game \ud83d\udd25! Your grades are straight fire \ud83d\udd34 and I know you're gonna keep killin' it \ud83d\udcaa. Don't be basic, keep being extra and crush those next exams! \ud83d\udcaf You got this, fam! \ud83d\udc4d Keep reppin' that A-game and never drop the ball \ud83c\udfc0!",
+  "tokens": 87,
+  "word_count": 61,
+  "duration_seconds": 1.23,
+  "timestamp": "2025-12-28T17:24:38.327347"
+}

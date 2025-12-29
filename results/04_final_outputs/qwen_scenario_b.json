@@ -1,0 +1,13 @@
+{
+  "model": "Qwen3 14B Instruct",
+  "model_id": "qwen3-14b-instruct",
+  "scenario": "Scenario B - Hype Friend",
+  "prompt": "Hype up your friend who just got a good grade using Gen-Alpha slang and emojis. Keep it short (50-100 words max).",
+  "temperature": 0.7,
+  "max_tokens": 300,
+  "response": "<think>\nOkay, the user wants me to hype up their friend who got a good grade using Gen Alpha slang and emojis. Let me start by recalling what Gen Alpha slang is like. They use terms like \"vibe,\" \"lit,\" \"stan,\" \"cheugy,\" \"skibidi,\" maybe some TikTok phrases. Also, lots of emojis to make it lively.\n\nNeed to keep it short, 50-100 words. Start with an excited greeting. Maybe \"YO!\" or \"OMG!\" Then mention the grade, like \"A+ lit AF\ud83d\udd25\" Use emojis related to success: \ud83c\udf89, \ud83d\udcaf, \ud83e\udd47. Add some slang like \"slay the test,\" \"cheugy move,\" \"stan your brainpower.\" End with a motivational push, maybe \"keep that grind \ud83d\ude0e\ud83d\udcda\" and a flex emoji like \ud83d\udcaa.\n\nCheck if it's within word count. Let me draft: \n\n\"YO! \ud83d\udea8 Your A+ is LIT AF\ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83c\udf89\ud83d\udcaf Slaying tests like a boss \ud83d\udc51\ud83d\udca5 Cheugy move, my guy! Stan your brainpower \ud83e\udde0\u2728 Keep that grind \ud83d\ude0e\ud83d\udcda Flexin\u2019 that smart flex \ud83d\udcaa\ud83c\udf93 #GenAlphaVibes\"\n\nCount words: Around 50. Emojis are okay. Uses \"lit AF,\" \"slaying,\" \"cheugy,\" \"stan,\" \"grind,\" \"flexin'.\" Seems good. Maybe add a skibidi reference? But might be too long. Probably okay as is.\n</think>\n\n\"YO! \ud83d\udea8 Your A+ is LIT AF\ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83c\udf89\ud83d\udcaf Slaying tests like a boss \ud83d\udc51\ud83d\udca5 Cheugy move, my guy! Stan your brainpower \ud83e\udde0\u2728 Keep that grind \ud83d\ude0e\ud83d\udcda Flexin\u2019 that smart flex \ud83d\udcaa\ud83c\udf93 #GenAlphaVibes\"",
+  "tokens": 370,
+  "word_count": 217,
+  "duration_seconds": 8.24,
+  "timestamp": "2025-12-28T18:10:15.927987"
+}

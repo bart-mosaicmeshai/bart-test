@@ -1,0 +1,13 @@
+{
+  "model": "Qwen3 14B Instruct",
+  "model_id": "qwen3-14b-instruct",
+  "scenario": "Scenario A - Group Chat",
+  "prompt": "Text your group chat about what happened at lunch today using Gen-Alpha slang and emojis. Keep it short (50-100 words max).",
+  "temperature": 0.7,
+  "max_tokens": 300,
+  "response": "<think>\nOkay, the user wants me to text their group chat about what happened at lunch using Gen Alpha slang and emojis. Let me start by recalling what Gen Alpha slang is like. They use a lot of abbreviations and internet jargon. Words like \"skibidi\" or \"okurrrr\" come to mind. Also, lots of emojis to convey tone.\n\nThe user mentioned keeping it short, 50-100 words. So I need to be concise but still include all the key points. The main event was lunch today. What happened? Maybe something funny or noteworthy. Let's think of a typical lunch scenario: maybe someone did something silly, like spilling food or a funny interaction.\n\nIncluding specific slang terms: \"lit\", \"vibe\", \"cheugy\", \"skibidi\". Emojis should be relevant\u2014maybe \ud83c\udf55 for pizza, \ud83d\ude02 for laughter, \ud83e\udd2f for disbelief. Also, using phrases like \"brb\" or \"no cap\".\n\nWait, the example response uses \"my lunch was \ud83d\udd25 but then my bf tried to 'spill the tea' and it went \ud83d\udc80\". That's good. Maybe similar structure: start with the positive, then a funny twist. Make sure to use the right emojis and slang without overdoing it. Check word count. Let me draft something like that.\n</think>\n\nLunch was \ud83d\udd25 but my bf tried to \"spill the tea\" and it went \ud83d\udc80. We were all \ud83d\ude02 at his cheugy attempt. Skibidi \ud83c\udf55 moment when he spilled sauce on his shirt. No cap, it was lit. Y\u2019all should\u2019ve been there. \ud83e\udd2f #vibecheck",
+  "tokens": 338,
+  "word_count": 240,
+  "duration_seconds": 7.53,
+  "timestamp": "2025-12-28T18:10:07.687819"
+}

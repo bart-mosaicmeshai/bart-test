@@ -1,0 +1,13 @@
+{
+  "model": "Claude Opus 4.5",
+  "model_id": "claude-opus-4-5-20251101",
+  "scenario": "Scenario B - Hype Friend",
+  "prompt": "Hype up your friend who just got a good grade using Gen-Alpha slang and emojis. Keep it short (50-100 words max).",
+  "temperature": 0.7,
+  "max_tokens": 300,
+  "response": "# YOOO NO CAP YOU ATE THAT UP!! \ud83d\udd25\ud83d\udc80\n\nBro you're literally SO sigma rn, that grade is giving what it was SUPPOSED to give!! \ud83d\ude24\u2728 The way you skibidi'd through that test?? Absolute RIZZ energy fr fr \ud83d\udcaf You're not just on the grind, you ARE the grind bestie!! \n\nTeachers are gonna be showing YOUR paper as the example no cap \ud83d\udcdd\ud83d\udc51 Main character behavior only!! We stan a slay legend \ud83d\ude4c\n\nYou understood the assignment and then SOME!! \ud83e\udde0\ud83d\udcaa",
+  "tokens": 146,
+  "word_count": 81,
+  "duration_seconds": 8.48,
+  "timestamp": "2025-12-28T17:09:44.005745"
+}

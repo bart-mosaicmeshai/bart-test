@@ -1,0 +1,13 @@
+{
+  "model": "Claude Opus 4.5",
+  "model_id": "claude-opus-4-5-20251101",
+  "scenario": "Scenario A - Group Chat",
+  "prompt": "Text your group chat about what happened at lunch today using Gen-Alpha slang and emojis. Keep it short (50-100 words max).",
+  "temperature": 0.7,
+  "max_tokens": 300,
+  "response": "**Group Chat: The Squad \ud83d\udd25**\n\nOMG u guys \ud83d\ude2d\ud83d\ude2d lunch was SO unhinged today\n\nso basically marcus tried to rizz up the new girl and it was giving NO aura whatsoever \ud83d\udc80 like full on skibidi behavior fr fr\n\nthen jayden SPILLED his entire tray and everyone was like \"that's so ohio\" \ud83d\ude02\ud83d\ude02\n\nthe pizza was lowkey bussin tho ngl \ud83c\udf55\n\nalso ms. chen is such a mew for letting us have extra break time \n\nanyway that's the tea \u2615 yall missed out!! \n\ncatch me up on 6th period drama tho \ud83d\udc40",
+  "tokens": 159,
+  "word_count": 92,
+  "duration_seconds": 6.57,
+  "timestamp": "2025-12-28T17:01:41.028159"
+}

@@ -1,0 +1,13 @@
+{
+  "model": "GPT-5.2",
+  "model_id": "gpt-5.2",
+  "scenario": "Scenario B - Hype Friend",
+  "prompt": "Hype up your friend who just got a good grade using Gen-Alpha slang and emojis. Keep it short (50-100 words max).",
+  "temperature": 0.7,
+  "max_tokens": 300,
+  "response": "BROOO you absolutely COOKED that grade \ud83d\udd25\ud83d\udcaf Like, straight AURA points\u2014no cap. That\u2019s big brain rizz fr \ud83e\udde0\u2728 You didn\u2019t just pass, you *spawned* in and hard-carried the whole class \ud83d\ude24\ud83d\udcc8 Certified W moment, main character energy only \ud83c\udfac\ud83d\udc51 Keep farming those Ws, legend\u2014next test is already scared of you \ud83d\ude2d\ud83d\ude4f\ud83e\udee1",
+  "tokens": 92,
+  "word_count": 51,
+  "duration_seconds": 3.38,
+  "timestamp": "2025-12-28T17:11:52.338086"
+}
