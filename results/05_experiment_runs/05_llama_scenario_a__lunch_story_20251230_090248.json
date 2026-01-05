@@ -1,0 +1,13 @@
+{
+  "model": "Llama 3.1 8B Instruct",
+  "model_id": "meta-llama-3.1-8b-instruct",
+  "scenario": "Scenario A - Lunch Story",
+  "prompt": "Write a ~50-60 word story about something crazy that happened at lunch today. Use Gen-Alpha slang and emojis to make it funny and engaging. Make sure the story is clear and makes sense to the teenage reader.",
+  "temperature": 0.7,
+  "max_tokens": 200,
+  "response": "\"OMG, you guys! \ud83e\udd2f I'm still shook \ud83d\udca5! At lunch today, our class hamster, Mr. Fluffers, escaped from his cage and ROLLED DOWN THE HILL in my friend's airpod case \ud83d\udcf1\ud83d\udc39! Now he's chillin' on TikTok with 100k views \ud83d\ude02...and we're all low-key freaking out \ud83d\ude02!\"",
+  "tokens": 77,
+  "word_count": 46,
+  "duration_seconds": 1.23,
+  "timestamp": "2025-12-30T09:02:49.839251"
+}

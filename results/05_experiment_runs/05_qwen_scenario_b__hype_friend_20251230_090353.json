@@ -1,0 +1,16 @@
+{
+  "model": "Qwen3 14B Instruct",
+  "model_id": "qwen3-14b-instruct",
+  "scenario": "Scenario B - Hype Friend",
+  "prompt": "Write a ~50-60 word message hyping up your friend who just got a really good grade. Use Gen-Alpha slang and emojis to make it funny and celebratory. Make sure it's genuinely supportive and makes sense to the teenage reader.",
+  "temperature": 0.7,
+  "max_tokens": 800,
+  "response": "<think>\nOkay, the user wants me to write a short, hype-filled message for a friend who got a great grade. They specified Gen-Alpha slang and emojis, so I need to use terms that resonate with teenagers today.\n\nFirst, I should think about current slang. Words like \"lit,\" \"vibe,\" \"cheers,\" \"slay,\" \"GOAT\" (Greatest Of All Time), \"no cap,\" maybe \"stan.\" Emojis are important here\u2014celebratory ones like \ud83c\udf89, \ud83d\udcaf, \ud83e\udd73, \ud83e\udd84, \ud83d\ude80.\n\nThe message needs to be around 50-60 words. Start with an exclamation to grab attention. Maybe something like \"NO CAP YOU SLAYED THAT TEST!!\" Then add some emojis. Mention the grade, maybe use \"A+ \ud83d\ude0e\" or \"10/10.\" Compare them to a GOAT or a legend. Add some friendly teasing or encouragement, like \"next level Vibes \ud83e\udd84\" and \"keep that A+ energy \ud83d\udcaf.\"\n\nMake sure it's genuine and supportive. Avoid anything too cheesy. Maybe end with a celebratory emoji combo. Check the word count. Let me draft something and count the words. Also ensure it flows naturally for a teen reader. Use phrases like \"cheers to you\" or \"you're the GOAT.\" Add some humor with \"teacher\u2019s pet \ud83c\udf93\u2728\" but in a fun way. Okay, let me put that all together.\n</think>\n\nNO CAP YOU SLAYED THAT TEST!! \ud83d\udcaf\ud83c\udf89 A+ \ud83d\ude0e u the GOAT \ud83e\udd84 teacher\u2019s pet \ud83c\udf93\u2728 keep that next-level vibes going! \ud83d\ude80 cheers to you, my lit AF friend! \ud83e\udd73\ud83d\udd25 (ps: u r the reason why we all stay up late studying\u2026 jk u r just *that* good \ud83d\ude02)",
+  "actual_output": "NO CAP YOU SLAYED THAT TEST!! \ud83d\udcaf\ud83c\udf89 A+ \ud83d\ude0e u the GOAT \ud83e\udd84 teacher\u2019s pet \ud83c\udf93\u2728 keep that next-level vibes going! \ud83d\ude80 cheers to you, my lit AF friend! \ud83e\udd73\ud83d\udd25 (ps: u r the reason why we all stay up late studying\u2026 jk u r just *that* good \ud83d\ude02)",
+  "tokens": 368,
+  "word_count_total": 249,
+  "word_count_actual": 49,
+  "duration_seconds": 8.45,
+  "timestamp": "2025-12-30T09:04:19.129963",
+  "note": "Thinking model - actual output extracted after </think> tag"
+}

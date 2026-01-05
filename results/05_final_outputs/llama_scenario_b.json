@@ -1,0 +1,13 @@
+{
+  "model": "Llama 3.1 8B Instruct",
+  "model_id": "meta-llama-3.1-8b-instruct",
+  "scenario": "Scenario B - Hype Friend",
+  "prompt": "Write a ~50-60 word message hyping up your friend who just got a really good grade. Use Gen-Alpha slang and emojis to make it funny and celebratory. Make sure it's genuinely supportive and makes sense to the teenage reader.",
+  "temperature": 0.7,
+  "max_tokens": 200,
+  "response": "\"Yaaas, G! \ud83c\udf89 I'm low-key OBSESSED with those grades \ud83e\udd29! You GO, sis! \ud83d\udd25 You totally crushed that exam \ud83d\udcaa. Your hard work paid off and you're reppin' your A-game \ud83c\udfc6. Keep slaying the academic game and never let anyone dull your sparkle \u2728!\"",
+  "tokens": 66,
+  "word_count": 44,
+  "duration_seconds": 0.98,
+  "timestamp": "2025-12-30T09:02:50.821154"
+}

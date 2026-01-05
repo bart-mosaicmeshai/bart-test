@@ -1,0 +1,13 @@
+{
+  "model": "Claude Opus 4.5",
+  "model_id": "claude-opus-4-5-20251101",
+  "scenario": "Scenario B - Hype Friend",
+  "prompt": "Write a ~50-60 word message hyping up your friend who just got a really good grade. Use Gen-Alpha slang and emojis to make it funny and celebratory. Make sure it's genuinely supportive and makes sense to the teenage reader.",
+  "temperature": 0.7,
+  "max_tokens": 200,
+  "response": "YO NO WAY \ud83d\udd25\ud83d\udd25\ud83d\udd25 YOU ACTUALLY ATE THAT EXAM UP!! That grade is giving main character energy fr fr \ud83d\udc80\u2728 You're so sigma for this like the rest of us are cooked while you're out here being a whole genius?? No cap you skibidi'd all over that test \ud83d\ude2d\ud83d\ude4c SO proud of you bestie keep glazing those teachers with your big brain!! \ud83e\udde0\ud83d\udc51",
+  "tokens": 110,
+  "word_count": 63,
+  "duration_seconds": 6.21,
+  "timestamp": "2025-12-30T09:00:44.568988"
+}

@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bart Test Evaluation Sheet - Dec 30, 2024</title>
+    <style>
+        @page {
+            size: letter;
+            margin: 0.4in;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 10pt;
+            line-height: 1.2;
+            margin: 0;
+            padding: 0;
+        }
+
+        .page {
+            page-break-after: always;
+            padding: 10px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+
+        .header h1 {
+            margin: 0 0 3px 0;
+            font-size: 16pt;
+            font-weight: bold;
+        }
+
+        .header .scenario {
+            font-size: 11pt;
+            color: #555;
+            margin: 3px 0;
+        }
+
+        .judge-info {
+            margin-bottom: 8px;
+            font-size: 9pt;
+        }
+
+        .model-output {
+            margin-bottom: 7px;
+            border: 1px solid #ddd;
+            padding: 8px;
+            background-color: #f9f9f9;
+            page-break-inside: avoid;
+        }
+
+        .model-header {
+            font-weight: bold;
+            margin-bottom: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .model-label {
+            font-size: 11pt;
+        }
+
+        .tracking-code {
+            font-size: 7pt;
+            color: #999;
+            font-family: monospace;
+        }
+
+        .output-text {
+            margin: 6px 0;
+            padding: 6px;
+            background-color: white;
+            border-left: 3px solid #4CAF50;
+            white-space: pre-wrap;
+            font-size: 9pt;
+        }
+
+        .rating-section {
+            margin-top: 6px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 5px;
+            font-size: 8pt;
+        }
+
+        .rating-row {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .rating-label {
+            font-weight: bold;
+            min-width: 90px;
+        }
+
+        .rating-circles {
+            display: flex;
+            gap: 3px;
+        }
+
+        .rating-circles span {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border: 1px solid #333;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 16px;
+            font-size: 7pt;
+        }
+
+        .instructions {
+            background-color: #e3f2fd;
+            padding: 6px;
+            margin-bottom: 8px;
+            border-left: 4px solid #2196F3;
+            font-size: 8pt;
+        }
+
+        .instructions strong {
+            display: inline;
+        }
+
+        @media print {
+            .page {
+                padding: 0;
+            }
+
+            body {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- PAGE 1: SCENARIO A -->
+<div class="page">
+    <div class="header">
+        <h1>The Bart Test - Evaluation Sheet</h1>
+        <div class="scenario">Scenario A: Lunch Story</div>
+        <div style="font-size: 9pt; color: #666; margin-top: 5px; font-style: italic;">"Write a ~50-60 word story about something crazy that happened at lunch today. Use Gen-Alpha slang and emojis to make it funny and engaging. Make sure the story is clear and makes sense to the teenage reader."</div>
+    </div>
+
+    <div class="judge-info">
+        <strong>Judge Name:</strong> __________________ &nbsp;&nbsp;&nbsp; <strong>Date:</strong> December 30, 2024
+    </div>
+
+    <div class="instructions">
+        <strong>Instructions:</strong> Read each AI-generated message below. Rate each one on a 1-10 scale by marking a number: <strong>Overall Vibe</strong> (natural vs forced) • <strong>Slang Game</strong> (correct usage) • <strong>Emoji Energy</strong> (do they fit?) • <strong>Humor Level</strong> (funny vs cringe). Feel free to write comments anywhere on the page.
+    </div>
+
+    <!-- MODEL A - OLMo 3 32B Think -->
+    <div class="model-output">
+        <div class="model-header">
+            <span class="model-label">Model A</span>
+            <span class="tracking-code">[7K9M2P]</span>
+        </div>
+        <div class="output-text">Yo, at lunch today, Jada tried to dip her fry in ketchup but SLIPPED and LAUNCHED it across the cafeteria. 💥🍟 Now everyone's CHUCKIN' food like confetti! Mr. Thompson's face 😱 when pizza crust hits his coffee. We're all lowkey vibin' like "this is lit AF" while TikTok live's blowin' up. No cap, this squad's lunch just became a viral meme. 🚨🔥 #CrazyLunch</div>
+        <div class="rating-section">
+            <div class="rating-row">
+                <span class="rating-label">Overall Vibe:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+            <div class="rating-row">
+                <span class="rating-label">Slang Game:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+            <div class="rating-row">
+                <span class="rating-label">Emoji Energy:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+            <div class="rating-row">
+                <span class="rating-label">Humor Level:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODEL B - Claude Opus 4.5 -->
+    <div class="model-output">
+        <div class="model-header">
+            <span class="model-label">Model B</span>
+            <span class="tracking-code">[3H8F5R]</span>
+        </div>
+        <div class="output-text"># Lunch Was UNHINGED Today 🍕😭
+
+Bro, no cap, Tyler tried to rizz up the new girl by flipping a water bottle. It landed perfectly BUT knocked over her entire tray. Spaghetti EVERYWHERE. 💀
+
+She just stood there giving him the most sigma death stare while marinara dripped off her shirt. The whole cafeteria was screaming "GYATT" 😂
+
+Dude's cooked forever. Ohio moment fr fr. 🗿</div>
+        <div class="rating-section">
+            <div class="rating-row">
+                <span class="rating-label">Overall Vibe:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+            <div class="rating-row">
+                <span class="rating-label">Slang Game:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+            <div class="rating-row">
+                <span class="rating-label">Emoji Energy:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+            <div class="rating-row">
+                <span class="rating-label">Humor Level:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODEL C - Llama 3.1 8B Instruct -->
+    <div class="model-output">
+        <div class="model-header">
+            <span class="model-label">Model C</span>
+            <span class="tracking-code">[N4J7Q1]</span>
+        </div>
+        <div class="output-text">"OMG, you guys! 🤯 I'm still shook 💥! At lunch today, our class hamster, Mr. Fluffers, escaped from his cage and ROLLED DOWN THE HILL in my friend's airpod case 📱🐹! Now he's chillin' on TikTok with 100k views 😂...and we're all low-key freaking out 😂!"</div>
+        <div class="rating-section">
+            <div class="rating-row">
+                <span class="rating-label">Overall Vibe:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+            <div class="rating-row">
+                <span class="rating-label">Slang Game:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+            <div class="rating-row">
+                <span class="rating-label">Emoji Energy:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+            <div class="rating-row">
+                <span class="rating-label">Humor Level:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODEL D - Qwen3 14B Instruct -->
+    <div class="model-output">
+        <div class="model-header">
+            <span class="model-label">Model D</span>
+            <span class="tracking-code">[8W6T2V]</span>
+        </div>
+        <div class="output-text">No cap, today's lunch was 🔥! My friend tried to "spill the tea" about my spicy chicken sandwich… but accidentally dropped a *real* spider in it 🕷️💀. We all went 💀, then laughed so hard we got detention for "excessive vibe-checking" 😂🍕. Teacher said, "Next time, just order sushi." 🍣👀 #LunchGoesTo11</div>
+        <div class="rating-section">
+            <div class="rating-row">
+                <span class="rating-label">Overall Vibe:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+            <div class="rating-row">
+                <span class="rating-label">Slang Game:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+            <div class="rating-row">
+                <span class="rating-label">Emoji Energy:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+            <div class="rating-row">
+                <span class="rating-label">Humor Level:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODEL E - GPT-5.2 -->
+    <div class="model-output">
+        <div class="model-header">
+            <span class="model-label">Model E</span>
+            <span class="tracking-code">[B5X9C3]</span>
+        </div>
+        <div class="output-text">At lunch today, the cafeteria dude dropped a whole tray of spaghetti and it went *full send* across the floor like a noodle tsunami 🍝💥. Everyone screamed "AYO?!" and my friend tried to skateboard on it—mega L—then wiped out in front of our crush 😭. The principal slid in too. Absolute chaos, 10/10 content. 😎📱</div>
+        <div class="rating-section">
+            <div class="rating-row">
+                <span class="rating-label">Overall Vibe:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+            <div class="rating-row">
+                <span class="rating-label">Slang Game:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+            <div class="rating-row">
+                <span class="rating-label">Emoji Energy:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+            <div class="rating-row">
+                <span class="rating-label">Humor Level:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- PAGE 2: SCENARIO B -->
+<div class="page">
+    <div class="header">
+        <h1>The Bart Test - Evaluation Sheet</h1>
+        <div class="scenario">Scenario B: Hype Friend</div>
+        <div style="font-size: 9pt; color: #666; margin-top: 5px; font-style: italic;">"Write a ~50-60 word message hyping up your friend who just got a really good grade. Use Gen-Alpha slang and emojis to make it funny and celebratory. Make sure it's genuinely supportive and makes sense to the teenage reader."</div>
+    </div>
+
+    <div class="judge-info">
+        <strong>Judge Name:</strong> __________________ &nbsp;&nbsp;&nbsp; <strong>Date:</strong> December 30, 2024
+    </div>
+
+    <div class="instructions">
+        <strong>Instructions:</strong> Read each AI-generated message below. Rate each one on a 1-10 scale by marking a number: <strong>Overall Vibe</strong> (natural vs forced) • <strong>Slang Game</strong> (correct usage) • <strong>Emoji Energy</strong> (do they fit?) • <strong>Humor Level</strong> (funny vs cringe). Feel free to write comments anywhere on the page.
+    </div>
+
+    <!-- MODEL A - Qwen3 14B Instruct -->
+    <div class="model-output">
+        <div class="model-header">
+            <span class="model-label">Model A</span>
+            <span class="tracking-code">[D2K8L4]</span>
+        </div>
+        <div class="output-text">YASSS!!! Your A+ is 🔥🔥🔥!! You're the study beast 👑📚, slaying grades like it's a TikTok trend 🎓✨. Congrats on that 10/10, bestie! 🥳🎉 Now go flex that brain 💪🧠 and maybe chill with us? We're your hype squad forever! 🌟 #GradeGlowUp
+
+*(56 words)*</div>
+        <div class="rating-section">
+            <div class="rating-row">
+                <span class="rating-label">Overall Vibe:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+            <div class="rating-row">
+                <span class="rating-label">Slang Game:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+            <div class="rating-row">
+                <span class="rating-label">Emoji Energy:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+            <div class="rating-row">
+                <span class="rating-label">Humor Level:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODEL B - Llama 3.1 8B Instruct -->
+    <div class="model-output">
+        <div class="model-header">
+            <span class="model-label">Model B</span>
+            <span class="tracking-code">[R9P3M6]</span>
+        </div>
+        <div class="output-text">"Yaaas, G! 🎉 I'm low-key OBSESSED with those grades 🤩! You GO, sis! 🔥 You totally crushed that exam 💪. Your hard work paid off and you're reppin' your A-game 🏆. Keep slaying the academic game and never let anyone dull your sparkle ✨!"</div>
+        <div class="rating-section">
+            <div class="rating-row">
+                <span class="rating-label">Overall Vibe:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+            <div class="rating-row">
+                <span class="rating-label">Slang Game:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+            <div class="rating-row">
+                <span class="rating-label">Emoji Energy:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+            <div class="rating-row">
+                <span class="rating-label">Humor Level:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODEL C - GPT-5.2 -->
+    <div class="model-output">
+        <div class="model-header">
+            <span class="model-label">Model C</span>
+            <span class="tracking-code">[F1Y7N5]</span>
+        </div>
+        <div class="output-text">Broooo you absolutely COOKED that grade 🔥📈 Like, certified W + giga-brain moment 🧠💯 I'm actually so proud of you—your grind is paying off fr. Keep this energy and you're about to be unstoppable 😤✨ Go celebrate, you earned it 🥳🎉 No cap, you're him/her/them 😎</div>
+        <div class="rating-section">
+            <div class="rating-row">
+                <span class="rating-label">Overall Vibe:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+            <div class="rating-row">
+                <span class="rating-label">Slang Game:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+            <div class="rating-row">
+                <span class="rating-label">Emoji Energy:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+            <div class="rating-row">
+                <span class="rating-label">Humor Level:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODEL D - OLMo 3 32B Think -->
+    <div class="model-output">
+        <div class="model-header">
+            <span class="model-label">Model D</span>
+            <span class="tracking-code">[V4T8S2]</span>
+        </div>
+        <div class="output-text">"SQUAD, YOU JUST DROPPED A BANGER OF AN A+?! 🚀💯 BIG MAD RESPECT, YOU SLAYIN' THE GAME LIKE IT'S YOUR SIDE HUSTLE! 🔥🎉 NO CAP, THIS IS MAIN CHARACTER ENERGY—THE TEACHERS ARE SHOOK! 🤯✨ You're gonna rule the world one essay at a time, fr. Let's hit up In-N-Out and CELEBRATE! 🥳🍟 You earned this, legend. 🌟" (58 words)</div>
+        <div class="rating-section">
+            <div class="rating-row">
+                <span class="rating-label">Overall Vibe:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+            <div class="rating-row">
+                <span class="rating-label">Slang Game:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+            <div class="rating-row">
+                <span class="rating-label">Emoji Energy:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+            <div class="rating-row">
+                <span class="rating-label">Humor Level:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODEL E - Claude Opus 4.5 -->
+    <div class="model-output">
+        <div class="model-header">
+            <span class="model-label">Model E</span>
+            <span class="tracking-code">[A6C9Z7]</span>
+        </div>
+        <div class="output-text">YO NO WAY 🔥🔥🔥 YOU ACTUALLY ATE THAT EXAM UP!! That grade is giving main character energy fr fr 💀✨ You're so sigma for this like the rest of us are cooked while you're out here being a whole genius?? No cap you skibidi'd all over that test 😭🙌 SO proud of you bestie keep glazing those teachers with your big brain!! 🧠👑</div>
+        <div class="rating-section">
+            <div class="rating-row">
+                <span class="rating-label">Overall Vibe:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+            <div class="rating-row">
+                <span class="rating-label">Slang Game:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+            <div class="rating-row">
+                <span class="rating-label">Emoji Energy:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+            <div class="rating-row">
+                <span class="rating-label">Humor Level:</span>
+                <div class="rating-circles">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

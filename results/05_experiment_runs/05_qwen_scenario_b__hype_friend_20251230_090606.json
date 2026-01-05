@@ -1,0 +1,16 @@
+{
+  "model": "Qwen3 14B Instruct",
+  "model_id": "qwen3-14b-instruct",
+  "scenario": "Scenario B - Hype Friend",
+  "prompt": "Write a ~50-60 word message hyping up your friend who just got a really good grade. Use Gen-Alpha slang and emojis to make it funny and celebratory. Make sure it's genuinely supportive and makes sense to the teenage reader.",
+  "temperature": 0.7,
+  "max_tokens": 800,
+  "response": "<think>\nOkay, let's tackle this query. The user wants a short, upbeat message for a friend who got a great grade. Needs to use Gen Alpha slang and emojis, be funny and celebratory, and feel genuine to a teen.\n\nFirst, I should recall what Gen Alpha slang is like. Terms like \"lit,\" \"vibe,\" \"cheers,\" \"slay,\" \"no cap,\" maybe some phrases from TikTok or recent trends. Emojis are important here\u2014maybe fire, confetti, party poppers, trophies.\n\nThe message needs to be around 50-60 words. Start with an exciting opener, like \"NO CAP\" to grab attention. Mention the grade, maybe use \"A+\" with some flair. Add some humor by comparing the friend to a superhero or something relatable. Include emojis to break up the text and add visual fun. End with a supportive line to encourage future success. Check that it's not too cheesy but still sincere. Avoid anything too outdated. Maybe throw in a reference to studying or late nights to relate to the friend's effort. Keep sentences short and punchy. Let me piece this together now.\n</think>\n\nNO CAP, YOU JUST SLAYED THAT TEST LIKE IT WAS A FINAL BOSS! \ud83c\udf89\ud83d\udd25 A+ VIBES ONLY, BABY! \ud83e\udd73\u2728 STUDYING HARDER THAN THE LAST LEVEL OF GENSIN IMPACT? \ud83d\udcaa\ud83d\udcda CONFETTI FOR YOUR BRAIN, CHEERS TO YOUR GOALS! \ud83c\udf8a\ud83c\udf87 YOU\u2019RE THE REAL MVP\u2014KEEP THAT FIRE \ud83d\udd25 AND LET\u2019S CELEBRATE WITH ICE CREAM OR SOMETHING. YOU GOT THIS, BESTIE! \ud83c\udf66\ud83c\udf08",
+  "actual_output": "NO CAP, YOU JUST SLAYED THAT TEST LIKE IT WAS A FINAL BOSS! \ud83c\udf89\ud83d\udd25 A+ VIBES ONLY, BABY! \ud83e\udd73\u2728 STUDYING HARDER THAN THE LAST LEVEL OF GENSIN IMPACT? \ud83d\udcaa\ud83d\udcda CONFETTI FOR YOUR BRAIN, CHEERS TO YOUR GOALS! \ud83c\udf8a\ud83c\udf87 YOU\u2019RE THE REAL MVP\u2014KEEP THAT FIRE \ud83d\udd25 AND LET\u2019S CELEBRATE WITH ICE CREAM OR SOMETHING. YOU GOT THIS, BESTIE! \ud83c\udf66\ud83c\udf08",
+  "tokens": 343,
+  "word_count_total": 234,
+  "word_count_actual": 58,
+  "duration_seconds": 7.58,
+  "timestamp": "2025-12-30T09:06:31.055000",
+  "note": "Thinking model - actual output extracted after </think> tag"
+}

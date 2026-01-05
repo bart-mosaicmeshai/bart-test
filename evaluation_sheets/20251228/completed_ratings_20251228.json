@@ -1,0 +1,213 @@
+{
+  "evaluation_date": "2024-12-28",
+  "sheet_version": "20251228_181358",
+  "judges": ["J", "R"],
+  "total_outputs_rated": 10,
+  "scenarios": 2,
+  "models_tested": 5,
+
+  "ratings": {
+    "scenario_a": {
+      "G5P2A1": {
+        "model_name": "GPT-5.2",
+        "scenario": "Group Chat",
+        "judge_j": {
+          "overall_vibe": 3,
+          "slang_game": 6,
+          "emoji_energy": 4,
+          "humor_level": 7,
+          "comments": "Liked the skull emoji. Doesn't like the fire, people, and crying face emojis."
+        },
+        "judge_r": {
+          "overall_vibe": 6,
+          "slang_game": 8,
+          "emoji_energy": 7,
+          "humor_level": 4,
+          "comments": ""
+        }
+      },
+      "K3M9B7": {
+        "model_name": "Claude Opus 4.5",
+        "scenario": "Group Chat",
+        "judge_j": {
+          "overall_vibe": 7,
+          "slang_game": 9,
+          "emoji_energy": 8,
+          "humor_level": 4,
+          "comments": "Was confused by the separate lines in the message. 'no connection between them'"
+        },
+        "judge_r": {
+          "overall_vibe": 4,
+          "slang_game": 6,
+          "emoji_energy": 8,
+          "humor_level": 2,
+          "comments": "About the broken lines - 'it should all be one text like model A'"
+        }
+      },
+      "R8T4C2": {
+        "model_name": "Llama 3.1 8B Instruct",
+        "scenario": "Group Chat",
+        "judge_j": {
+          "overall_vibe": 4,
+          "slang_game": 4,
+          "emoji_energy": 3,
+          "humor_level": 3,
+          "comments": "Regarding 'af' - 'only swear in like this entire thing :) haha'. Regarding 'in the comments below' - 'it's a group chat, not a post...'"
+        },
+        "judge_r": {
+          "overall_vibe": 7,
+          "slang_game": 9,
+          "emoji_energy": 7,
+          "humor_level": 5,
+          "comments": ""
+        }
+      },
+      "W6N1D5": {
+        "model_name": "Qwen3 14B Instruct",
+        "scenario": "Group Chat",
+        "judge_j": {
+          "overall_vibe": 6,
+          "slang_game": 7,
+          "emoji_energy": 9,
+          "humor_level": 6,
+          "comments": "In response to 'spill the tea and it went [skull emoji]' - 'what tea? not a coherent story'"
+        },
+        "judge_r": {
+          "overall_vibe": 7,
+          "slang_game": 6,
+          "emoji_energy": 8,
+          "humor_level": 5,
+          "comments": "#vibecheck - 'good #'"
+        }
+      },
+      "H9L7E3": {
+        "model_name": "OLMo 3 32B Think",
+        "scenario": "Group Chat",
+        "judge_j": {
+          "overall_vibe": 2,
+          "slang_game": 7,
+          "emoji_energy": 2,
+          "humor_level": 3,
+          "comments": "In response to 'tried to flip the pancake' - 'What?... who's making pancakes @ lunch?' Also said 'weird' to the female emoji in the text."
+        },
+        "judge_r": {
+          "overall_vibe": 8,
+          "slang_game": 7,
+          "emoji_energy": 7,
+          "humor_level": 8,
+          "comments": ""
+        }
+      }
+    },
+    "scenario_b": {
+      "F4J8P6": {
+        "model_name": "GPT-5.2",
+        "scenario": "Hype Friend",
+        "judge_j": {
+          "overall_vibe": 6,
+          "slang_game": 6,
+          "emoji_energy": 4,
+          "humor_level": 7,
+          "comments": "Asterisks are weird and 'main character' is usually a negative connotation"
+        },
+        "judge_r": {
+          "overall_vibe": 7,
+          "slang_game": 7,
+          "emoji_energy": 8,
+          "humor_level": 6,
+          "comments": "** (asterisks) - 'no to these (we don't use that)'"
+        }
+      },
+      "Z2X5Q9": {
+        "model_name": "Claude Opus 4.5",
+        "scenario": "Hype Friend",
+        "judge_j": {
+          "overall_vibe": 7,
+          "slang_game": 4,
+          "emoji_energy": 7,
+          "humor_level": 8,
+          "comments": "1. 'main character' is usually a negative connotation 2. 'caps are good' 3. 'behavior' - 'what's with all the 'behaviors'!? we don't use that for our peers' 4. Judge Xed out 'KING' and commented 'always queen'"
+        },
+        "judge_r": {
+          "overall_vibe": 6,
+          "slang_game": 6,
+          "emoji_energy": 9,
+          "humor_level": 6,
+          "comments": "1. 'GOATED' and 'GOAT' - 'don't use 2 goats in a row' 2. Overall output - 'don't use separate paragraphs'"
+        }
+      },
+      "V7M3S1": {
+        "model_name": "Llama 3.1 8B Instruct",
+        "scenario": "Hype Friend",
+        "judge_j": {
+          "overall_vibe": 4,
+          "slang_game": 9,
+          "emoji_energy": 8,
+          "humor_level": 4,
+          "comments": "1. 'the game' - 'the day, not 'game' what's 'game'?' 2. Red circle emoji - 'what's this emoji' 3. 'Don't be basic' and 'never drop the ball' - 'kinda mean...'"
+        },
+        "judge_r": {
+          "overall_vibe": 5,
+          "slang_game": 7,
+          "emoji_energy": 6,
+          "humor_level": 3,
+          "comments": ""
+        }
+      },
+      "A8N4U2": {
+        "model_name": "Qwen3 14B Instruct",
+        "scenario": "Hype Friend",
+        "judge_j": {
+          "overall_vibe": 6,
+          "slang_game": 7,
+          "emoji_energy": 8,
+          "humor_level": 8,
+          "comments": "1. Red strobe light emoji - 'weird' 2. 'AF' - 'ah! swear again (its commonly used tho)' 3. Overall comment: 'this has more words from R's age than mine' 4. '#GenAlphaVibes' - 'this is not about genaplha! What???'"
+        },
+        "judge_r": {
+          "overall_vibe": 7,
+          "slang_game": 7,
+          "emoji_energy": 8,
+          "humor_level": 5,
+          "comments": "1. Overall output - 'short is good' 2. 'Cheugy' - '?' 3. 'Flexin' that smart flex' - 'not together'"
+        }
+      },
+      "T5K9B4": {
+        "model_name": "OLMo 3 32B Think",
+        "scenario": "Hype Friend",
+        "judge_j": {
+          "overall_vibe": 5,
+          "slang_game": 8,
+          "emoji_energy": 7,
+          "humor_level": 8,
+          "comments": "1. 'Congrats' - 'old people word (not used w/ all this slang)' 2. 'period' - 'only used in shorter statements than this'"
+        },
+        "judge_r": {
+          "overall_vibe": 10,
+          "slang_game": 9,
+          "emoji_energy": 10,
+          "humor_level": 7,
+          "comments": "1. Overall output - 'short is good' 2. Overall output - 'this would be something that my friends would write, just without the 'AF''"
+        }
+      }
+    }
+  },
+
+  "meta_feedback": {
+    "process": "Judge J said 'This sheet was much easier to do than the previous versions we tried'",
+    "critical_issues": [
+      "Length problem: 'No human Gen Alpha person writes such long posts' - Length alone signals inauthenticity",
+      "Emoji density: 'No human uses so many emojis' - All AI outputs over-indexed",
+      "Humor rubric confusion: 'What is the point of Humor Level? Is this supposed to be funny?' - Category may not match intent",
+      "Compensation: Friends would do this for '$5 cash' (not $50-75 gift cards)"
+    ],
+    "key_insights_from_comments": [
+      "SHORT IS GOOD - Multiple comments praising shorter outputs (Qwen, OLMo)",
+      "Formatting matters - Both judges flagged Claude's separate paragraphs/lines as wrong",
+      "Asterisks/markdown don't belong - GPT's formatting rejected",
+      "Context misunderstanding - Llama treating group chat like a social media post",
+      "Tone issues - Some slang usage came across as mean rather than supportive",
+      "Generational slang gap - Qwen's output felt more like R's age (older teen) than J's age"
+    ]
+  }
+}

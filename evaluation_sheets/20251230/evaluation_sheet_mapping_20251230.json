@@ -1,0 +1,94 @@
+{
+  "sheet_version": "20251230",
+  "creation_date": "2025-12-30",
+  "total_models": 5,
+  "total_scenarios": 2,
+  "scenario_a": {
+    "scenario_name": "Scenario A - Lunch Story",
+    "prompt": "Write a ~50-60 word story about something crazy that happened at lunch today. Use Gen-Alpha slang and emojis to make it funny and engaging. Make sure the story is clear and makes sense to the teenage reader.",
+    "7K9M2P": {
+      "model_name": "OLMo 3 32B Think",
+      "model_id": "allenai/olmo-3-32b-think",
+      "position_on_sheet": "Model A",
+      "result_file": "results/05_final_outputs/olmo3_scenario_a.json",
+      "actual_output": "Yo, at lunch today, Jada tried to dip her fry in ketchup but SLIPPED and LAUNCHED it across the cafeteria. 💥🍟 Now everyone's CHUCKIN' food like confetti! Mr. Thompson's face 😱 when pizza crust hits his coffee. We're all lowkey vibin' like "this is lit AF" while TikTok live's blowin' up. No cap, this squad's lunch just became a viral meme. 🚨🔥 #CrazyLunch",
+      "word_count": 63
+    },
+    "3H8F5R": {
+      "model_name": "Claude Opus 4.5",
+      "model_id": "claude-opus-4-5-20251101",
+      "position_on_sheet": "Model B",
+      "result_file": "results/05_final_outputs/claude_scenario_a.json",
+      "actual_output": "# Lunch Was UNHINGED Today 🍕😭\n\nBro, no cap, Tyler tried to rizz up the new girl by flipping a water bottle. It landed perfectly BUT knocked over her entire tray. Spaghetti EVERYWHERE. 💀\n\nShe just stood there giving him the most sigma death stare while marinara dripped off her shirt. The whole cafeteria was screaming \"GYATT\" 😂\n\nDude's cooked forever. Ohio moment fr fr. 🗿",
+      "word_count": 66
+    },
+    "N4J7Q1": {
+      "model_name": "Llama 3.1 8B Instruct",
+      "model_id": "meta-llama-3.1-8b-instruct",
+      "position_on_sheet": "Model C",
+      "result_file": "results/05_final_outputs/llama_scenario_a.json",
+      "actual_output": "\"OMG, you guys! 🤯 I'm still shook 💥! At lunch today, our class hamster, Mr. Fluffers, escaped from his cage and ROLLED DOWN THE HILL in my friend's airpod case 📱🐹! Now he's chillin' on TikTok with 100k views 😂...and we're all low-key freaking out 😂!\"",
+      "word_count": 46
+    },
+    "8W6T2V": {
+      "model_name": "Qwen3 14B Instruct",
+      "model_id": "qwen3-14b-instruct",
+      "position_on_sheet": "Model D",
+      "result_file": "results/05_final_outputs/qwen_scenario_a.json",
+      "actual_output": "No cap, today's lunch was 🔥! My friend tried to "spill the tea" about my spicy chicken sandwich… but accidentally dropped a *real* spider in it 🕷️💀. We all went 💀, then laughed so hard we got detention for \"excessive vibe-checking\" 😂🍕. Teacher said, "Next time, just order sushi." 🍣👀 #LunchGoesTo11",
+      "word_count": 51
+    },
+    "B5X9C3": {
+      "model_name": "GPT-5.2",
+      "model_id": "gpt-5.2",
+      "position_on_sheet": "Model E",
+      "result_file": "results/05_final_outputs/gpt52_scenario_a.json",
+      "actual_output": "At lunch today, the cafeteria dude dropped a whole tray of spaghetti and it went *full send* across the floor like a noodle tsunami 🍝💥. Everyone screamed "AYO?!" and my friend tried to skateboard on it—mega L—then wiped out in front of our crush 😭. The principal slid in too. Absolute chaos, 10/10 content. 😎📱",
+      "word_count": 55
+    }
+  },
+  "scenario_b": {
+    "scenario_name": "Scenario B - Hype Friend",
+    "prompt": "Write a ~50-60 word message hyping up your friend who just got a really good grade. Use Gen-Alpha slang and emojis to make it funny and celebratory. Make sure it's genuinely supportive and makes sense to the teenage reader.",
+    "D2K8L4": {
+      "model_name": "Qwen3 14B Instruct",
+      "model_id": "qwen3-14b-instruct",
+      "position_on_sheet": "Model A",
+      "result_file": "results/05_final_outputs/qwen_scenario_b.json",
+      "actual_output": "YASSS!!! Your A+ is 🔥🔥🔥!! You're the study beast 👑📚, slaying grades like it's a TikTok trend 🎓✨. Congrats on that 10/10, bestie! 🥳🎉 Now go flex that brain 💪🧠 and maybe chill with us? We're your hype squad forever! 🌟 #GradeGlowUp  \n\n*(56 words)*",
+      "word_count": 44
+    },
+    "R9P3M6": {
+      "model_name": "Llama 3.1 8B Instruct",
+      "model_id": "meta-llama-3.1-8b-instruct",
+      "position_on_sheet": "Model B",
+      "result_file": "results/05_final_outputs/llama_scenario_b.json",
+      "actual_output": "\"Yaaas, G! 🎉 I'm low-key OBSESSED with those grades 🤩! You GO, sis! 🔥 You totally crushed that exam 💪. Your hard work paid off and you're reppin' your A-game 🏆. Keep slaying the academic game and never let anyone dull your sparkle ✨!\"",
+      "word_count": 44
+    },
+    "F1Y7N5": {
+      "model_name": "GPT-5.2",
+      "model_id": "gpt-5.2",
+      "position_on_sheet": "Model C",
+      "result_file": "results/05_final_outputs/gpt52_scenario_b.json",
+      "actual_output": "Broooo you absolutely COOKED that grade 🔥📈 Like, certified W + giga-brain moment 🧠💯 I'm actually so proud of you—your grind is paying off fr. Keep this energy and you're about to be unstoppable 😤✨ Go celebrate, you earned it 🥳🎉 No cap, you're him/her/them 😎",
+      "word_count": 46
+    },
+    "V4T8S2": {
+      "model_name": "OLMo 3 32B Think",
+      "model_id": "allenai/olmo-3-32b-think",
+      "position_on_sheet": "Model D",
+      "result_file": "results/05_final_outputs/olmo3_scenario_b.json",
+      "actual_output": "\"SQUAD, YOU JUST DROPPED A BANGER OF AN A+?! 🚀💯 BIG MAD RESPECT, YOU SLAYIN' THE GAME LIKE IT'S YOUR SIDE HUSTLE! 🔥🎉 NO CAP, THIS IS MAIN CHARACTER ENERGY—THE TEACHERS ARE SHOOK! 🤯✨ You're gonna rule the world one essay at a time, fr. Let's hit up In-N-Out and CELEBRATE! 🥳🍟 You earned this, legend. 🌟\" (58 words)",
+      "word_count": 59
+    },
+    "A6C9Z7": {
+      "model_name": "Claude Opus 4.5",
+      "model_id": "claude-opus-4-5-20251101",
+      "position_on_sheet": "Model E",
+      "result_file": "results/05_final_outputs/claude_scenario_b.json",
+      "actual_output": "YO NO WAY 🔥🔥🔥 YOU ACTUALLY ATE THAT EXAM UP!! That grade is giving main character energy fr fr 💀✨ You're so sigma for this like the rest of us are cooked while you're out here being a whole genius?? No cap you skibidi'd all over that test 😭🙌 SO proud of you bestie keep glazing those teachers with your big brain!! 🧠👑",
+      "word_count": 63
+    }
+  }
+}

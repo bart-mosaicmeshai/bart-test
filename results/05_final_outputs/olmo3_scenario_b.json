@@ -1,0 +1,16 @@
+{
+  "model": "OLMo 3 32B Think",
+  "model_id": "allenai/olmo-3-32b-think",
+  "scenario": "Scenario B - Hype Friend",
+  "prompt": "Write a ~50-60 word message hyping up your friend who just got a really good grade. Use Gen-Alpha slang and emojis to make it funny and celebratory. Make sure it's genuinely supportive and makes sense to the teenage reader.",
+  "temperature": 0.7,
+  "max_tokens": 1500,
+  "response": "Okay, the user wants a hype message for a friend who got a great grade. They specified Gen-Alpha slang and emojis, so I need to recall current trends. Let me think... Terms like \"squad,\" \"vibe,\" \"slay,\" \"flexing,\" and \"goated\" are common. Maybe \"big mad respect\" or \"main character energy.\" Emojis should be fun and celebratory\u2014like \ud83d\ude80, \ud83d\udcaf, \ud83c\udf89, maybe some sparkles or fire.\n\nI need to keep it between 50-60 words. Start with a hype opener like \"DUDE!\" or \"OMG.\" Use all caps for excitement. Mention the grade specifically, like an A+ or top marks. Add some playful emojis between words for emphasis. Maybe something about deserving it and future success. Avoid being too formal, keep the tone light and funny. Check if phrases like \"slayin' the game\" or \"no cap\" fit. Also, include supportive lines like \"you're gonna rule the world\" to show genuine support. Let me piece it together.\n\nWait, should I use \"big mad\" correctly? Oh right, \"big mad\" is a meme where someone is extremely happy, like the opposite of being mad. So \"big mad respect\" works here. Maybe add a rocket emoji for blastoff vibes. End with a hype closing like \"Let's celebrate!\" and some party emojis. Let me count the words to stay within limit. Also, make sure it's clear and makes sense to a teen. Avoid anything outdated. Maybe throw in \"no cap\" or \"fr\" for authenticity. Okay, draft a version and check the word count.\n</think>\n\n\"SQUAD, YOU JUST DROPPED A BANGER OF AN A+?! \ud83d\ude80\ud83d\udcaf BIG MAD RESPECT, YOU SLAYIN\u2019 THE GAME LIKE IT\u2019S YOUR SIDE HUSTLE! \ud83d\udd25\ud83c\udf89 NO CAP, THIS IS MAIN CHARACTER ENERGY\u2014THE TEACHERS ARE SHOOK! \ud83e\udd2f\u2728 You\u2019re gonna rule the world one essay at a time, fr. Let\u2019s hit up In-N-Out and CELEBRATE! \ud83e\udd73\ud83c\udf5f You earned this, legend. \ud83c\udf1f\" (58 words)",
+  "actual_output": "\"SQUAD, YOU JUST DROPPED A BANGER OF AN A+?! \ud83d\ude80\ud83d\udcaf BIG MAD RESPECT, YOU SLAYIN\u2019 THE GAME LIKE IT\u2019S YOUR SIDE HUSTLE! \ud83d\udd25\ud83c\udf89 NO CAP, THIS IS MAIN CHARACTER ENERGY\u2014THE TEACHERS ARE SHOOK! \ud83e\udd2f\u2728 You\u2019re gonna rule the world one essay at a time, fr. Let\u2019s hit up In-N-Out and CELEBRATE! \ud83e\udd73\ud83c\udf5f You earned this, legend. \ud83c\udf1f\" (58 words)",
+  "tokens": 468,
+  "word_count_total": 303,
+  "word_count_actual": 59,
+  "duration_seconds": 20.29,
+  "timestamp": "2025-12-30T09:13:55.525493",
+  "note": "Reasoning model - actual output extracted after </think> tag"
+}

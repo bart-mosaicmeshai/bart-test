@@ -1,0 +1,13 @@
+{
+  "model": "Claude Opus 4.5",
+  "model_id": "claude-opus-4-5-20251101",
+  "scenario": "Scenario A - Lunch Story",
+  "prompt": "Write a ~50-60 word story about something crazy that happened at lunch today. Use Gen-Alpha slang and emojis to make it funny and engaging. Make sure the story is clear and makes sense to the teenage reader.",
+  "temperature": 0.7,
+  "max_tokens": 200,
+  "response": "# Lunch Was UNHINGED Today \ud83c\udf55\ud83d\ude2d\n\nBro, no cap, Tyler tried to rizz up the new girl by flipping a water bottle. It landed perfectly BUT knocked over her entire tray. Spaghetti EVERYWHERE. \ud83d\udc80\n\nShe just stood there giving him the most sigma death stare while marinara dripped off her shirt. The whole cafeteria was screaming \"GYATT\" \ud83d\ude02\n\nDude's cooked forever. Ohio moment fr fr. \ud83d\uddff",
+  "tokens": 120,
+  "word_count": 66,
+  "duration_seconds": 5.63,
+  "timestamp": "2025-12-30T09:00:31.091281"
+}

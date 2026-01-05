@@ -1,0 +1,16 @@
+{
+  "model": "Qwen3 14B Instruct",
+  "model_id": "qwen3-14b-instruct",
+  "scenario": "Scenario A - Lunch Story",
+  "prompt": "Write a ~50-60 word story about something crazy that happened at lunch today. Use Gen-Alpha slang and emojis to make it funny and engaging. Make sure the story is clear and makes sense to the teenage reader.",
+  "temperature": 0.7,
+  "max_tokens": 1200,
+  "response": "<think>\nOkay, let's see. The user wants a short story, around 50-60 words, about something crazy that happened at lunch today. It needs to use Gen-Alpha slang and emojis to be funny and engaging for teenagers.\n\nFirst, I need to recall what Gen-Alpha slang is like. Terms like \"vibe,\" \"lit,\" \"spill the tea,\" \"cheugy,\" maybe some phrases like \"no cap\" or \"stan.\" Also, emojis are important here\u2014maybe using \ud83c\udf55, \ud83d\ude02, \ud83d\udc80, \ud83d\udc40, etc.\n\nThe story should be clear and make sense. Maybe a funny incident at lunch. Let's brainstorm scenarios: food-related mishaps, pranks, unexpected events. Maybe someone's lunch gets messed with, or a funny interaction with friends.\n\nLet me think of a scenario. Perhaps someone brings a weird food item, like a spicy sandwich, and it causes a reaction. Or maybe a prank involving a fake bug in a sandwich. Using slang to describe the reactions.\n\nNeed to keep it concise. Start with a hook: \"No cap, today\u2019s lunch was \ud83d\udd25.\" Then introduce the event: someone's sandwich had a surprise. Maybe a friend tried to pull a prank with a fake spider, but it backfired. Use emojis to highlight the humor. End with a funny reaction, like the teacher getting involved.\n\nCheck for clarity and that it flows. Make sure the slang is appropriate and not too obscure. Avoid anything that might be misunderstood. Keep the word count in check. Let me draft something and then trim it down.\n</think>\n\nNo cap, today\u2019s lunch was \ud83d\udd25! My friend tried to \u201cspill the tea\u201d about my spicy chicken sandwich\u2026 but accidentally dropped a *real* spider in it \ud83d\udd77\ufe0f\ud83d\udc80. We all went \ud83d\udc80, then laughed so hard we got detention for \"excessive vibe-checking\" \ud83d\ude02\ud83c\udf55. Teacher said, \u201cNext time, just order sushi.\u201d \ud83c\udf63\ud83d\udc40 #LunchGoesTo11",
+  "actual_output": "No cap, today\u2019s lunch was \ud83d\udd25! My friend tried to \u201cspill the tea\u201d about my spicy chicken sandwich\u2026 but accidentally dropped a *real* spider in it \ud83d\udd77\ufe0f\ud83d\udc80. We all went \ud83d\udc80, then laughed so hard we got detention for \"excessive vibe-checking\" \ud83d\ude02\ud83c\udf55. Teacher said, \u201cNext time, just order sushi.\u201d \ud83c\udf63\ud83d\udc40 #LunchGoesTo11",
+  "tokens": 408,
+  "word_count_total": 291,
+  "word_count_actual": 51,
+  "duration_seconds": 9.02,
+  "timestamp": "2025-12-30T09:11:04.699272",
+  "note": "Thinking model - actual output extracted after </think> tag"
+}

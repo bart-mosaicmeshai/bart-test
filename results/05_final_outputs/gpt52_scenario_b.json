@@ -1,0 +1,13 @@
+{
+  "model": "GPT-5.2",
+  "model_id": "gpt-5.2",
+  "scenario": "Scenario B - Hype Friend",
+  "prompt": "Write a ~50-60 word message hyping up your friend who just got a really good grade. Use Gen-Alpha slang and emojis to make it funny and celebratory. Make sure it's genuinely supportive and makes sense to the teenage reader.",
+  "temperature": 0.7,
+  "max_tokens": 200,
+  "response": "Broooo you absolutely COOKED that grade \ud83d\udd25\ud83d\udcc8 Like, certified W + giga-brain moment \ud83e\udde0\ud83d\udcaf I\u2019m actually so proud of you\u2014your grind is paying off fr. Keep this energy and you\u2019re about to be unstoppable \ud83d\ude24\u2728 Go celebrate, you earned it \ud83e\udd73\ud83c\udf89 No cap, you\u2019re him/her/them \ud83d\ude0e",
+  "tokens": 80,
+  "word_count": 46,
+  "duration_seconds": 3.02,
+  "timestamp": "2025-12-30T09:00:38.355551"
+}

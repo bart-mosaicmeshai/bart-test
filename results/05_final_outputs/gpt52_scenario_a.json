@@ -1,0 +1,13 @@
+{
+  "model": "GPT-5.2",
+  "model_id": "gpt-5.2",
+  "scenario": "Scenario A - Lunch Story",
+  "prompt": "Write a ~50-60 word story about something crazy that happened at lunch today. Use Gen-Alpha slang and emojis to make it funny and engaging. Make sure the story is clear and makes sense to the teenage reader.",
+  "temperature": 0.7,
+  "max_tokens": 200,
+  "response": "At lunch today, the cafeteria dude dropped a whole tray of spaghetti and it went *full send* across the floor like a noodle tsunami \ud83c\udf5d\ud83d\udca5. Everyone screamed \u201cAYO?!\u201d and my friend tried to skateboard on it\u2014mega L\u2014then wiped out in front of our crush \ud83d\ude2d. The principal slid in too. Absolute chaos, 10/10 content. \ud83d\ude0e\ud83d\udcf1",
+  "tokens": 84,
+  "word_count": 55,
+  "duration_seconds": 3.77,
+  "timestamp": "2025-12-30T09:00:25.457700"
+}

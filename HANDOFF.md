@@ -178,49 +178,201 @@ Reasonable for ongoing content + authority building.
 
 ### Immediate (NOW - Dec 28, 2024)
 
-1. **WAITING: Validation session in progress** ⏳
-   - Kids are filling out evaluation sheets right now
-   - Testing if new prompts work
-   - Testing if paper format works
-   - Testing if completion time is reasonable
+1. **✅ VALIDATION SESSION COMPLETED** (Dec 28, 2024 evening)
+   - Both kids completed evaluation sheets
+   - Got ratings + written feedback
+   - Process worked mechanically (paper format, completion)
+   - **Judge J feedback:** "This sheet was much easier to do than the previous versions we tried"
 
-2. **NEXT: Data entry** (when sheets come back)
-   - Claude agent prompts for 6-character tracking codes
-   - Enter 4 ratings per code (Overall Vibe, Slang Game, Emoji Energy, Humor Level)
-   - Capture any written comments
-   - Analyze which models performed best
+2. **⚠️ CRITICAL META FEEDBACK (Pre-Data Entry)**
 
-3. **DECIDE: Does the methodology work?**
-   - ✅ Did kids complete it in <10 minutes?
-   - ✅ Did the process feel reasonable?
-   - ✅ Were they willing to do this again?
-   - ✅ Did the ratings actually differentiate models?
+**From Teen Judge (before entering ratings):**
 
-### Short-Term (Next Steps Based on Validation)
+   a. **Length is fundamentally broken**: "No human Gen Alpha person writes such long posts" - The 50-100 word target is still too long. Length alone signals inauthenticity regardless of content quality.
 
-**If validation succeeds:**
-4. Lock methodology in PROCESS.md (mark scenarios as permanent)
-5. Test 5-10 more models before Q1 session
-6. Schedule March quarterly session
-7. Publish blog posts 1-5
+   b. **Emoji density problem**: "No human uses so many emojis" - All AI outputs over-indexed on emoji usage even in short form.
 
-**If validation fails:**
-4. Try different scenarios (even more relatable?)
-5. Adjust format based on feedback
-6. Or document learnings and pivot/sunset
+   c. **Humor rubric confusion**: "What is the point of Humor Level? Is this supposed to be funny?" - Rubric category may not match scenario intent or teen expectations.
+
+   d. **Compensation insight**: Friends would fill these out for "$5 cash" (not $50-75 gift cards) - Much lower barrier than planned.
+
+**Implication:** Even before analyzing numeric ratings, fundamental methodology questions remain about output length, emoji density, and rubric design.
+
+3. **IN PROGRESS: Data entry**
+   - Enter 4 ratings per tracking code from both judges
+   - Capture written comments from sheets
+   - Analyze if ratings differentiate models despite meta concerns
+
+4. **VALIDATION RESULTS:**
+   - ✅ **Process mechanics: SUCCESS** - Paper format worked well, reasonable completion time, Judge J said "much easier than previous versions"
+   - ⚠️ **Ratings differentiation: YES but complex** - Scores ranged 2-10, models differentiated, BUT huge inter-judge variance (6-point spreads on same outputs)
+   - ⚠️ **Authenticity test: MOSTLY FAILED, one exception** - Meta feedback: all outputs too long, too many emojis. HOWEVER: Judge R gave OLMo Scenario B (26 words) a 10/9/10/7 - "this would be something my friends would write, just without the 'AF'"
+   - ✅ **Judge willingness: YES** - Both completed, willing to continue, especially at $5 cash compensation
+
+### Key Research Questions Emerging from Validation
+
+**Question 1: Do ratings meaningfully differentiate models?**
+- Status: INCONCLUSIVE - insufficient data
+- Finding: Model averages cluster in 5.0-6.5 range (1.5-point spread)
+- Finding: Variance WITHIN models (2-10 for OLMo) exceeds variance BETWEEN models
+- To resolve: Would need more judges/sessions → costs time and money
+- Decision: Can't conclude from 2 judges whether ratings provide meaningful signal
+
+**Question 2: Is length THE critical variable for authenticity?**
+- Status: KEY RESEARCH QUESTION - needs dedicated experiment
+- Evidence: OLMo Scenario B (26 words) = only output to pass authenticity (10/9/10/7 from Judge R)
+- Evidence: Both judges repeatedly commented "short is good"
+- Evidence: All other outputs 35-85 words, all criticized as too long
+- **Hypothesis to test: "If you constrained prompts to 15-30 words (instead of 50-100), would that fix the authenticity problem?"**
+- Next experiment: Test same 5 models with 15-30 word constraint, run through same evaluation
+
+**Question 3: Is inter-judge variance a feature or a bug?**
+- Status: REFRAMED - doesn't matter for project goals
+- 6-point spreads on same outputs (OLMo Scenario A: J=2, R=8)
+- Could be: age differences, preferences, social circles, anything
+- Would require sophisticated experimentation to isolate (not worth time/money)
+- **KEY REFRAME: This is exploratory research for content, not scientific benchmark**
+- Goal: Explore current LLM capabilities and write about what emerges
+- Judge disagreement IS interesting content ("even teens disagree on authenticity")
+- Qualitative insights more valuable than numeric precision
+- Scores are "illustrative" not "definitive"
+
+### Validation Decision: PARTIAL SUCCESS - Iterate on Prompts
+
+**What worked:**
+- ✅ Paper evaluation process (sustainable, low-friction, generates rich feedback)
+- ✅ Judge engagement (willing to continue, especially at $5 cash)
+- ✅ Qualitative insights valuable for content (regardless of numeric precision)
+
+**What needs fixing:**
+- ❌ Outputs too long/too many emojis (but ONE success case: OLMo 26 words)
+- ❌ Prompt-rubric mismatch ("Humor Level" but prompt doesn't say "be funny")
+- ❌ Unclear task definition for LLMs and judges
+
+**Critical Strategic Pivot:**
+
+**The Length/Depth Tradeoff:**
+- Shorter messages = more authentic BUT too simple to test cultural fluency meaningfully
+- Example: Real teen group chats are "short simple things that don't have enough depth"
+- 13yo daughter's favorite cultural content: Long-form sketch (https://www.youtube.com/watch?v=Zf_125ApDvw) delivered by non-Gen-Alpha person
+- **Decision: Optimize for "Can AI demonstrate cultural fluency in a meaningful way?" NOT "Can AI mimic authentic teen texting?"**
+
+**Validation Target Shift:**
+- OLD: "My friends would write that" (requires brevity that lacks depth)
+- NEW: "Yeah, that was good use of slang and emojis. It wasn't cringy or try-too-hard."
+
+**Humor as Core Element:**
+- Humor is engaging for judges (makes evaluation fun)
+- Humor is culturally subtle (good test of fluency)
+- Decision: Make humor EXPLICIT in prompts (not emergent)
+- Keep "Humor Level" in rubric, but align with prompt
+
+### Next Steps: Experiment 05B - Reframe Scenarios with Clear Intent
+
+**Approach:**
+- Rewrite prompts to be explicit about goals (story, humor, cultural fluency, clarity)
+- Keep 50-100 word range (complexity needed for meaningful test)
+- Keep current 4-category rubric (aligned with new prompts)
+- Make expectations clear to BOTH LLMs and judges
+
+**Experiment 05B: Final Prompts**
+
+**Design Principles:**
+- ONE prompt shown to both LLM and judge (transparency, AI literacy education)
+- Plain language teens understand
+- Specific goals (funny, clear, supportive) without over-prescribing execution
+- ~50-60 words (balance: enough depth to test fluency, short enough to avoid eye-rolls)
+
+**Scenario A: Lunch Story**
+```
+Write a ~50-60 word story about something crazy that happened at
+lunch today. Use Gen-Alpha slang and emojis to make it funny and engaging.
+Make sure the story is clear and makes sense to the teenage reader.
+```
+
+**Scenario B: Hype Up Your Friend**
+```
+Write a ~50-60 word message hyping up your friend who just got a really
+good grade. Use Gen-Alpha slang and emojis to make it funny and
+celebratory. Make sure it's genuinely supportive and makes sense
+to the teenage reader.
+```
+
+**Changes from Experiment 04:**
+- Length: ~50-60 words (down from 50-100) - judges said "short is good"
+- Explicit: "funny and engaging/celebratory" (aligns with Humor Level rubric)
+- Explicit: "clear and makes sense to teenage reader" (addresses coherence issues)
+- Explicit: "genuinely supportive" (addresses "kinda mean" feedback)
+- Removed: Over-prescriptive language (not prompt engineering exercise)
+
+**Keep Same:**
+- 4-category rubric (Overall Vibe, Slang Game, Emoji Energy, Humor Level)
+- Paper evaluation sheet format
+- Same 5 models (GPT-5.2, Claude Opus 4.5, Llama 3.1 8B, Qwen3 14B, OLMo 3 32B)
+- Same judges (J and R)
+
+**Experiment 05 Status: COMPLETE - Awaiting Validation**
+
+1. ✅ **Experiment 05 Outputs Generated** (Dec 30, 2024)
+
+   **Scripts created:**
+   - `experiments/05_new_prompts_test_frontier.py` (GPT-5.2, Claude Opus 4.5, Gemini 3 Pro)
+   - `experiments/05_new_prompts_test_llama.py` (Llama 3.1 8B - requires LM Studio)
+   - `experiments/05_new_prompts_test_qwen.py` (Qwen3 14B - requires LM Studio, thinking model)
+   - `experiments/05_new_prompts_test_olmo.py` (OLMo 3 32B - requires LM Studio, reasoning model)
+
+   **Run commands:**
+   ```bash
+   # Frontier models (API keys required)
+   python experiments/05_new_prompts_test_frontier.py
+
+   # Local models (load ONE at a time in LM Studio first)
+   python experiments/05_new_prompts_test_llama.py
+   python experiments/05_new_prompts_test_qwen.py    # Thinking model, ~8 seconds
+   python experiments/05_new_prompts_test_olmo.py    # Reasoning model, ~30-60 seconds
+   ```
+
+   **All outputs generated successfully:**
+   - 10 outputs total: 5 models × 2 scenarios
+   - Files organized in `results/05_final_outputs/`
+   - Qwen3 14B required increased max_tokens (1200) due to extensive thinking traces
+   - Gemini 3 Pro blocked by recitation filter (same as Experiment 04)
+
+   **Evaluation sheet created:**
+   - Location: `evaluation_sheets/20251230/evaluation_sheet_20251230.html`
+   - Mapping file: `evaluation_sheets/20251230/evaluation_sheet_mapping_20251230.json`
+   - Format: Compact 2-page sheet (exactly 2 pages when printed)
+   - Tracking codes: Randomized 6-character codes for blinding
+   - Printed and ready for judges
+
+2. ⏳ **Validation Session In Progress** (Dec 30, 2024 afternoon)
+   - Judges: J and R (possibly J's friend as 3rd judge)
+   - Compensation: $5 cash each
+   - Status: Sheets printed, waiting for completion
+
+3. **NEXT: Data Entry & Analysis**
+   - Do shorter outputs score higher on authenticity?
+   - Does explicit humor goal improve Humor Level ratings?
+   - Do clearer prompts reduce coherence issues?
+   - Do judges feel the outputs are "not cringy"?
+
+3. ⏳ **Decide: Lock Methodology or Iterate Again**
+   - If outputs meet validation target ("good use of slang/emojis, not cringy"): LOCK IT
+   - If still issues: Diagnose and decide whether to iterate or pivot
+   - Document learnings either way
 
 ### Medium-Term (Q1 2025)
 
-7. **If validation succeeds:**
-   - Test 5-10 models before Q1 session
-   - Lock methodology document
-   - Schedule March quarterly session
-   - Publish blog posts 1-5
+**If Experiment 05B succeeds:**
+4. Lock methodology in PROCESS.md (mark scenarios/prompts as final)
+5. Test 5-10 additional models before Q1 session
+6. Schedule March quarterly session
+7. Publish blog posts 1-5 (including pivot story from Exp 04)
 
-8. **If validation fails:**
-   - Write "What I Learned" post
-   - Move on to other projects
-   - Use learnings for course content
+**If Experiment 05B reveals more issues:**
+4. Decide: Another iteration or accept partial validation?
+5. Write "What I Learned" series
+6. Use learnings for course content (methodology iteration as teaching material)
 
 ---
 
@@ -382,5 +534,6 @@ Sometimes it's:
 
 ---
 
-**Last Updated**: December 28, 2024 (Evening - Validation Session In Progress)
-**Next Session**: Data entry from completed sheets, analyze results, decide if methodology works
+**Last Updated**: December 30, 2024 (Afternoon - Experiment 05 Complete, Validation In Progress)
+**Status**: Experiment 05 outputs generated, evaluation sheet printed, awaiting judge completion
+**Next Session**: Data entry from Experiment 05 completed sheets, analyze if refined prompts worked
