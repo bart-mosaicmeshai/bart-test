@@ -1,12 +1,18 @@
-# Human Teen Reviews - December 17, 2024
+# Human Teen Reviews - Experiment 03 (December 17, 2024)
 
 ## Overview
 
-Three teen reviewers evaluated the top 2 stories from Experiment 02 as identified by Claude AI judge. Reviews conducted via casual text message conversations.
+**Experiment 03: Hybrid AI/Human Evaluation**
+
+This experiment tested a two-stage evaluation approach:
+1. AI judges (Claude Sonnet 4.5) evaluated all five outputs from Experiments 01 and 02
+2. Three teen reviewers evaluated the top 2 stories as identified by the AI judge
+
+Reviews conducted via casual text message conversations.
 
 **Stories Evaluated:**
-- **Story A**: Lower Temperature (0.5) - `02a_temp_0.5_20251207_090043`
-- **Story B**: Baseline (Temp 0.7) - `01_bart_test_20251204_211238`
+- **Story A**: Lower Temperature (0.5) - `02a_temp_0.5_20251207_090043` (from Experiment 02)
+- **Story B**: Baseline (Temp 0.7) - `01_bart_test_20251204_211238` (from Experiment 01)
 
 ## Results Summary
 
