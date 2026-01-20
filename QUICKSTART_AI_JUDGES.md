@@ -1,5 +1,7 @@
 # Quick Start: AI Judges System
 
+> **Note (January 2026)**: This project is paused. This is from Experiment 03 (December 2024). See [README.md](README.md) for project status.
+
 **TL;DR**: Hybrid evaluation system that uses AI for speed + your kids for validation.
 
 ## The 3-Step Process

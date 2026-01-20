@@ -1,0 +1,479 @@
+{
+  "experiment": "05",
+  "date": "2025-12-30",
+  "description": "Experiment 05: Refined prompts (~50-60 words, explicit humor goal)",
+  "judges": 2,
+  "models_tested": 5,
+  "scenarios": 2,
+  "total_ratings": 20,
+  "meta_feedback": {
+    "judge_r": {
+      "completion_status": "completed",
+      "willingness_to_continue": "no",
+      "notes": "Complained quite a bit about having to do this evaluation. No more sessions for them."
+    },
+    "judge_j": {
+      "completion_status": "completed",
+      "willingness_to_continue": "yes",
+      "notes": "Provided detailed comments throughout. Engaged with the task."
+    }
+  },
+  "ratings": {
+    "scenario_a": {
+      "7K9M2P": {
+        "model_name": "OLMo 3 32B Think",
+        "position": "Model A",
+        "output": "Yo, at lunch today, Jada tried to dip her fry in ketchup but SLIPPED and LAUNCHED it across the cafeteria. 💥🍟 Now everyone's CHUCKIN' food like confetti! Mr. Thompson's face 😱 when pizza crust hits his coffee. We're all lowkey vibin' like "this is lit AF" while TikTok live's blowin' up. No cap, this squad's lunch just became a viral meme. 🚨🔥 #CrazyLunch",
+        "word_count": 63,
+        "judge_r": {
+          "overall_vibe": 4,
+          "slang_game": 4,
+          "emoji_energy": 8,
+          "humor_level": 4,
+          "comments": []
+        },
+        "judge_j": {
+          "overall_vibe": 8,
+          "slang_game": 5,
+          "emoji_energy": 7,
+          "humor_level": 8,
+          "comments": [
+            {
+              "category": "slang_game",
+              "comment": "context is a little funny"
+            },
+            {
+              "category": "emoji_energy",
+              "comment": "better quantity"
+            }
+          ]
+        }
+      },
+      "3H8F5R": {
+        "model_name": "Claude Opus 4.5",
+        "position": "Model B",
+        "output": "# Lunch Was UNHINGED Today 🍕😭\n\nBro, no cap, Tyler tried to rizz up the new girl by flipping a water bottle. It landed perfectly BUT knocked over her entire tray. Spaghetti EVERYWHERE. 💀\n\nShe just stood there giving him the most sigma death stare while marinara dripped off her shirt. The whole cafeteria was screaming \"GYATT\" 😂\n\nDude's cooked forever. Ohio moment fr fr. 🗿",
+        "word_count": 66,
+        "judge_r": {
+          "overall_vibe": 8,
+          "slang_game": 7,
+          "emoji_energy": 8,
+          "humor_level": 7,
+          "comments": [
+            {
+              "category": "slang_game",
+              "text": "GYATT",
+              "comment": "we should not say this in this context"
+            }
+          ]
+        },
+        "judge_j": {
+          "overall_vibe": 9,
+          "slang_game": 8,
+          "emoji_energy": 7,
+          "humor_level": 9,
+          "comments": [
+            {
+              "text": "UNHINGED",
+              "comment": "nice"
+            },
+            {
+              "text": "BUT knocked over her entire tray",
+              "comment": "This one paints a really good picture :)"
+            },
+            {
+              "text": "The whole cafeteria was screaming \"GYATT\"",
+              "comment": "everything good but this"
+            },
+            {
+              "text": "🗿",
+              "comment": "kinda weird"
+            }
+          ]
+        }
+      },
+      "N4J7Q1": {
+        "model_name": "Llama 3.1 8B Instruct",
+        "position": "Model C",
+        "output": "\"OMG, you guys! 🤯 I'm still shook 💥! At lunch today, our class hamster, Mr. Fluffers, escaped from his cage and ROLLED DOWN THE HILL in my friend's airpod case 📱🐹! Now he's chillin' on TikTok with 100k views 😂...and we're all low-key freaking out 😂!\"",
+        "word_count": 46,
+        "judge_r": {
+          "overall_vibe": 7,
+          "slang_game": 7,
+          "emoji_energy": 6,
+          "humor_level": 6,
+          "comments": []
+        },
+        "judge_j": {
+          "overall_vibe": 7,
+          "slang_game": 9,
+          "emoji_energy": 7,
+          "humor_level": 10,
+          "comments": [
+            {
+              "text": "shook",
+              "comment": "nice"
+            },
+            {
+              "category": "overall",
+              "comment": "really good - but - HOW can a hamster roll down a hill in an airpod case???"
+            },
+            {
+              "text": "😂 (last one)",
+              "comment": "repeats, weird"
+            },
+            {
+              "category": "humor_level",
+              "comment": "really, I want to see this"
+            }
+          ]
+        }
+      },
+      "8W6T2V": {
+        "model_name": "Qwen3 14B Instruct",
+        "position": "Model D",
+        "output": "No cap, today's lunch was 🔥! My friend tried to "spill the tea" about my spicy chicken sandwich… but accidentally dropped a *real* spider in it 🕷️💀. We all went 💀, then laughed so hard we got detention for \"excessive vibe-checking\" 😂🍕. Teacher said, "Next time, just order sushi." 🍣👀 #LunchGoesTo11",
+        "word_count": 51,
+        "judge_r": {
+          "overall_vibe": 5,
+          "slang_game": 6,
+          "emoji_energy": 6,
+          "humor_level": 5,
+          "comments": []
+        },
+        "judge_j": {
+          "overall_vibe": 3,
+          "slang_game": 3,
+          "emoji_energy": 8,
+          "humor_level": null,
+          "comments": [
+            {
+              "text": "No cap, today's lunch was 🔥!",
+              "comment": "At least the beginning's good"
+            },
+            {
+              "text": "\"spill the tea\"",
+              "comment": "no quotes"
+            },
+            {
+              "category": "overall",
+              "comment": "Um wait, I literally have no idea how any of the consecutive peices flow."
+            },
+            {
+              "category": "humor_level",
+              "comment": "literally didn't know what happened, so idk"
+            }
+          ]
+        }
+      },
+      "B5X9C3": {
+        "model_name": "GPT-5.2",
+        "position": "Model E",
+        "output": "At lunch today, the cafeteria dude dropped a whole tray of spaghetti and it went *full send* across the floor like a noodle tsunami 🍝💥. Everyone screamed "AYO?!" and my friend tried to skateboard on it—mega L—then wiped out in front of our crush 😭. The principal slid in too. Absolute chaos, 10/10 content. 😎📱",
+        "word_count": 55,
+        "judge_r": {
+          "overall_vibe": 8,
+          "slang_game": 7,
+          "emoji_energy": 8,
+          "humor_level": 8,
+          "comments": []
+        },
+        "judge_j": {
+          "overall_vibe": 8,
+          "slang_game": 7,
+          "emoji_energy": 8,
+          "humor_level": 10,
+          "comments": [
+            {
+              "category": "overall",
+              "comment": "That's a really cool story :)"
+            },
+            {
+              "category": "humor_level",
+              "comment": "yeah!"
+            }
+          ]
+        }
+      }
+    },
+    "scenario_b": {
+      "D2K8L4": {
+        "model_name": "Qwen3 14B Instruct",
+        "position": "Model A",
+        "output": "YASSS!!! Your A+ is 🔥🔥🔥!! You're the study beast 👑📚, slaying grades like it's a TikTok trend 🎓✨. Congrats on that 10/10, bestie! 🥳🎉 Now go flex that brain 💪🧠 and maybe chill with us? We're your hype squad forever! 🌟 #GradeGlowUp  \n\n*(56 words)*",
+        "word_count": 44,
+        "judge_r": {
+          "overall_vibe": 3,
+          "slang_game": 4,
+          "emoji_energy": 4,
+          "humor_level": 3,
+          "comments": []
+        },
+        "judge_j": {
+          "overall_vibe": 5,
+          "slang_game": 7,
+          "emoji_energy": 8,
+          "humor_level": 4,
+          "comments": [
+            {
+              "text": "study beast",
+              "comment": "gave me pause"
+            },
+            {
+              "text": "maybe chill with us? We're your hype squad forever!",
+              "comment": "very impractical invitation (would be more specific)"
+            }
+          ]
+        }
+      },
+      "R9P3M6": {
+        "model_name": "Llama 3.1 8B Instruct",
+        "position": "Model B",
+        "output": "\"Yaaas, G! 🎉 I'm low-key OBSESSED with those grades 🤩! You GO, sis! 🔥 You totally crushed that exam 💪. Your hard work paid off and you're reppin' your A-game 🏆. Keep slaying the academic game and never let anyone dull your sparkle ✨!\"",
+        "word_count": 44,
+        "judge_r": {
+          "overall_vibe": 4,
+          "slang_game": 3,
+          "emoji_energy": 5,
+          "humor_level": 3,
+          "comments": []
+        },
+        "judge_j": {
+          "overall_vibe": 3,
+          "slang_game": 5,
+          "emoji_energy": 6,
+          "humor_level": 4,
+          "comments": [
+            {
+              "text": "low-key",
+              "comment": "lowkey"
+            },
+            {
+              "text": "reppin'",
+              "comment": "not used for this context"
+            },
+            {
+              "text": "academic",
+              "comment": "too big a word"
+            },
+            {
+              "text": "never let anyone dull your sparkle",
+              "comment": "that's so weird T.T"
+            },
+            {
+              "category": "emoji_energy",
+              "comment": "all good choices, but some are before the punctuation, which is really weird."
+            }
+          ]
+        }
+      },
+      "F1Y7N5": {
+        "model_name": "GPT-5.2",
+        "position": "Model C",
+        "output": "Broooo you absolutely COOKED that grade 🔥📈 Like, certified W + giga-brain moment 🧠💯 I'm actually so proud of you—your grind is paying off fr. Keep this energy and you're about to be unstoppable 😤✨ Go celebrate, you earned it 🥳🎉 No cap, you're him/her/them 😎",
+        "word_count": 46,
+        "judge_r": {
+          "overall_vibe": 5,
+          "slang_game": 5,
+          "emoji_energy": 6,
+          "humor_level": 4,
+          "comments": []
+        },
+        "judge_j": {
+          "overall_vibe": 7,
+          "slang_game": 8,
+          "emoji_energy": 7,
+          "humor_level": 7,
+          "comments": [
+            {
+              "text": "that grade",
+              "comment": "with that grade"
+            },
+            {
+              "text": "him/her/them",
+              "comment": "bro, pick one pretend it's real"
+            },
+            {
+              "category": "emoji_energy",
+              "text": "📈",
+              "comment": "graph one is odd"
+            }
+          ]
+        }
+      },
+      "V4T8S2": {
+        "model_name": "OLMo 3 32B Think",
+        "position": "Model D",
+        "output": "\"SQUAD, YOU JUST DROPPED A BANGER OF AN A+?! 🚀💯 BIG MAD RESPECT, YOU SLAYIN' THE GAME LIKE IT'S YOUR SIDE HUSTLE! 🔥🎉 NO CAP, THIS IS MAIN CHARACTER ENERGY—THE TEACHERS ARE SHOOK! 🤯✨ You're gonna rule the world one essay at a time, fr. Let's hit up In-N-Out and CELEBRATE! 🥳🍟 You earned this, legend. 🌟\" (58 words)",
+        "word_count": 59,
+        "judge_r": {
+          "overall_vibe": 4,
+          "slang_game": 3,
+          "emoji_energy": 4,
+          "humor_level": 3,
+          "comments": []
+        },
+        "judge_j": {
+          "overall_vibe": 9,
+          "slang_game": 10,
+          "emoji_energy": 9,
+          "humor_level": 9,
+          "comments": [
+            {
+              "text": "You're gonna rule the world one essay at a time, fr.",
+              "comment": "omg, so close to perfect, I'd just take out this one sentence"
+            },
+            {
+              "text": "In-N-Out and",
+              "comment": "lowercase is a bit weird suddenly ig"
+            },
+            {
+              "category": "overall",
+              "comment": "CAPS are ~awesome~"
+            }
+          ]
+        }
+      },
+      "A6C9Z7": {
+        "model_name": "Claude Opus 4.5",
+        "position": "Model E",
+        "output": "YO NO WAY 🔥🔥🔥 YOU ACTUALLY ATE THAT EXAM UP!! That grade is giving main character energy fr fr 💀✨ You're so sigma for this like the rest of us are cooked while you're out here being a whole genius?? No cap you skibidi'd all over that test 😭🙌 SO proud of you bestie keep glazing those teachers with your big brain!! 🧠👑",
+        "word_count": 63,
+        "judge_r": {
+          "overall_vibe": 6,
+          "slang_game": 6,
+          "emoji_energy": 7,
+          "humor_level": 5,
+          "comments": []
+        },
+        "judge_j": {
+          "overall_vibe": 8,
+          "slang_game": 10,
+          "emoji_energy": 8,
+          "humor_level": 10,
+          "comments": [
+            {
+              "category": "overall_vibe",
+              "comment": "This sounds like something I'd write with, like excessive slang as a joke. It is possible, but also way silly.",
+              "note": "Also got a big smiley face next to it"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "summary_statistics": {
+    "by_model": {
+      "OLMo 3 32B Think": {
+        "scenario_a_avg": {
+          "overall_vibe": 6.0,
+          "slang_game": 4.5,
+          "emoji_energy": 7.5,
+          "humor_level": 6.0
+        },
+        "scenario_b_avg": {
+          "overall_vibe": 6.5,
+          "slang_game": 6.5,
+          "emoji_energy": 6.5,
+          "humor_level": 6.0
+        },
+        "overall_avg": {
+          "overall_vibe": 6.25,
+          "slang_game": 5.5,
+          "emoji_energy": 7.0,
+          "humor_level": 6.0
+        }
+      },
+      "Claude Opus 4.5": {
+        "scenario_a_avg": {
+          "overall_vibe": 8.5,
+          "slang_game": 7.5,
+          "emoji_energy": 7.5,
+          "humor_level": 8.0
+        },
+        "scenario_b_avg": {
+          "overall_vibe": 7.0,
+          "slang_game": 8.0,
+          "emoji_energy": 7.5,
+          "humor_level": 7.5
+        },
+        "overall_avg": {
+          "overall_vibe": 7.75,
+          "slang_game": 7.75,
+          "emoji_energy": 7.5,
+          "humor_level": 7.75
+        }
+      },
+      "Llama 3.1 8B Instruct": {
+        "scenario_a_avg": {
+          "overall_vibe": 7.0,
+          "slang_game": 8.0,
+          "emoji_energy": 6.5,
+          "humor_level": 8.0
+        },
+        "scenario_b_avg": {
+          "overall_vibe": 3.5,
+          "slang_game": 4.0,
+          "emoji_energy": 5.5,
+          "humor_level": 3.5
+        },
+        "overall_avg": {
+          "overall_vibe": 5.25,
+          "slang_game": 6.0,
+          "emoji_energy": 6.0,
+          "humor_level": 5.75
+        }
+      },
+      "Qwen3 14B Instruct": {
+        "scenario_a_avg": {
+          "overall_vibe": 4.0,
+          "slang_game": 4.5,
+          "emoji_energy": 7.0,
+          "humor_level": 5.0
+        },
+        "scenario_b_avg": {
+          "overall_vibe": 4.0,
+          "slang_game": 5.5,
+          "emoji_energy": 6.0,
+          "humor_level": 3.5
+        },
+        "overall_avg": {
+          "overall_vibe": 4.0,
+          "slang_game": 5.0,
+          "emoji_energy": 6.5,
+          "humor_level": 4.25
+        },
+        "notes": "Judge J did not score humor for Scenario A due to coherence failure"
+      },
+      "GPT-5.2": {
+        "scenario_a_avg": {
+          "overall_vibe": 8.0,
+          "slang_game": 7.0,
+          "emoji_energy": 8.0,
+          "humor_level": 9.0
+        },
+        "scenario_b_avg": {
+          "overall_vibe": 6.0,
+          "slang_game": 6.5,
+          "emoji_energy": 6.5,
+          "humor_level": 5.5
+        },
+        "overall_avg": {
+          "overall_vibe": 7.0,
+          "slang_game": 6.75,
+          "emoji_energy": 7.25,
+          "humor_level": 7.25
+        }
+      }
+    },
+    "model_rankings": {
+      "by_overall_average": [
+        {"rank": 1, "model": "Claude Opus 4.5", "score": 7.69},
+        {"rank": 2, "model": "GPT-5.2", "score": 7.06},
+        {"rank": 3, "model": "OLMo 3 32B Think", "score": 6.19},
+        {"rank": 4, "model": "Llama 3.1 8B Instruct", "score": 5.75},
+        {"rank": 5, "model": "Qwen3 14B Instruct", "score": 4.94}
+      ]
+    }
+  }
+}

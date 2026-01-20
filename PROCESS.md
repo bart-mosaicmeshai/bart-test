@@ -2,6 +2,8 @@
 
 **Complete workflow for running the Bart Test with teen judges**
 
+> **Note (January 2026)**: This project is paused. This document is preserved for anyone interested in continuing this work or adapting the methodology. See [README.md](README.md) for project status and the [blog series](https://www.mosaicmeshai.com/blog/bart-test-part-10-the-stochastic-parrot-and-what-visible-thinking-traces-might-reveal) for the complete story.
+
 ## Overview
 
 This process generates short Gen-Alpha slang messages from multiple LLMs, creates a paper evaluation sheet for teen judges, and captures their ratings.

@@ -1,22 +1,49 @@
-# Bart Test - Session Handoff
+# Bart Test - Project Status
 
-**Date**: December 28, 2024
-**Current Status**: Major Methodology Pivot - Quarterly Judging Sessions
+**Final Update**: January 20, 2026
+**Status**: **PAUSED**
 
-**Critical Realization**: Teen judges ghosted Experiment 03. The methodology itself was unsustainable.
+After 5 experiments across late 2024 and early 2025, the Bart Test has been paused. The complete journey—methodology iterations, key learnings, and the decision to pause—is documented in a [10-part blog series](https://www.mosaicmeshai.com/blog/bart-test-part-10-the-stochastic-parrot-and-what-visible-thinking-traces-might-reveal) at Mosaic Mesh AI.
 
 ---
 
-## Project Context
+## Why Paused
 
-The **Bart Test** is a signature LLM benchmark that evaluates cultural fluency through Gen-Alpha slang and emojis, rated by actual teenagers through quarterly judging sessions.
+The Bart Test methodology worked mechanically (paper sheets, batch evaluation, short scenarios), but three factors led to pausing:
 
-**Current Test Format**: Short-form (~50-100 word) messages in scenarios teens directly experience.
+1. **Insufficient data**: With only 2 judges showing high variance (5-point spreads on same outputs), couldn't draw definitive conclusions
+2. **Judge burnout**: Lost 50% of judges after 2 sessions in 3 days; social costs of recruitment were higher than anticipated
+3. **Unclear value proposition**: Couldn't articulate who would use these results or what decisions they would inform
 
-**Purpose**:
-1. Learn about newly released models
-2. Ongoing topic to write about on blog
-3. Build authority and brand as "the Bart Test guy"
+The project succeeded as exploratory research and generated valuable insights about LLM behavior, human evaluation design, and research methodology. Whether it becomes a production benchmark depends on resolving the value question.
+
+## Read the Full Story
+
+The [10-part blog series](https://www.mosaicmeshai.com/blog/bart-test-part-10-the-stochastic-parrot-and-what-visible-thinking-traces-might-reveal) documents:
+
+- Initial discovery of "overthinking" in reasoning models
+- Multiple methodology pivots and why they were needed
+- What worked and what didn't in human evaluation design
+- The social costs of recruiting teenage judges
+- Deep reflections on cognition, stochastic parrots, and what visible thinking traces reveal
+
+All parts link from Part 10.
+
+---
+
+## Project Summary
+
+The **Bart Test** explored whether LLMs could generate natural Gen-Alpha slang and emojis, as judged by actual teenagers.
+
+**What was tested**: 5 experiments with 6 models (OLMo 3 32B, Llama 3.1 8B, Qwen3 14B, GPT-5.2, Claude Opus 4.5, Gemini 3 Pro)
+
+**Key finding**: Reasoning models visibly "overthink" creative tasks, optimizing for slang density rather than naturalness—an insight only possible with human judges and visible thinking traces.
+
+---
+
+## Historical Context (Preserved for Reference)
+
+Below is the detailed project history preserved from December 2024 through December 30, 2024, when the decision to pause was made.
 
 ---
 
@@ -311,7 +338,7 @@ to the teenage reader.
 - Same 5 models (GPT-5.2, Claude Opus 4.5, Llama 3.1 8B, Qwen3 14B, OLMo 3 32B)
 - Same judges (J and R)
 
-**Experiment 05 Status: COMPLETE - Awaiting Validation**
+**Experiment 05 Status: COMPLETE - Validated (Dec 30, 2024)**
 
 1. ✅ **Experiment 05 Outputs Generated** (Dec 30, 2024)
 
@@ -320,17 +347,6 @@ to the teenage reader.
    - `experiments/05_new_prompts_test_llama.py` (Llama 3.1 8B - requires LM Studio)
    - `experiments/05_new_prompts_test_qwen.py` (Qwen3 14B - requires LM Studio, thinking model)
    - `experiments/05_new_prompts_test_olmo.py` (OLMo 3 32B - requires LM Studio, reasoning model)
-
-   **Run commands:**
-   ```bash
-   # Frontier models (API keys required)
-   python experiments/05_new_prompts_test_frontier.py
-
-   # Local models (load ONE at a time in LM Studio first)
-   python experiments/05_new_prompts_test_llama.py
-   python experiments/05_new_prompts_test_qwen.py    # Thinking model, ~8 seconds
-   python experiments/05_new_prompts_test_olmo.py    # Reasoning model, ~30-60 seconds
-   ```
 
    **All outputs generated successfully:**
    - 10 outputs total: 5 models × 2 scenarios
@@ -343,36 +359,99 @@ to the teenage reader.
    - Mapping file: `evaluation_sheets/20251230/evaluation_sheet_mapping_20251230.json`
    - Format: Compact 2-page sheet (exactly 2 pages when printed)
    - Tracking codes: Randomized 6-character codes for blinding
-   - Printed and ready for judges
 
-2. ⏳ **Validation Session In Progress** (Dec 30, 2024 afternoon)
-   - Judges: J and R (possibly J's friend as 3rd judge)
+2. ✅ **Validation Session COMPLETED** (Dec 30, 2024)
+   - Judges: Judge #1 (J) and Judge #2 (R)
    - Compensation: $5 cash each
-   - Status: Sheets printed, waiting for completion
+   - Both judges completed evaluation sheets
+   - Judge #1: Engaged, detailed comments, willing to continue
+   - Judge #2: Completed but complained throughout, unwilling to continue further
+   - **Critical finding:** 2 sessions in 3 days caused judge burnout
 
-3. **NEXT: Data Entry & Analysis**
-   - Do shorter outputs score higher on authenticity?
-   - Does explicit humor goal improve Humor Level ratings?
-   - Do clearer prompts reduce coherence issues?
-   - Do judges feel the outputs are "not cringy"?
+3. ✅ **Data Entry & Analysis COMPLETED** (Dec 30, 2024)
 
-3. ⏳ **Decide: Lock Methodology or Iterate Again**
-   - If outputs meet validation target ("good use of slang/emojis, not cringy"): LOCK IT
-   - If still issues: Diagnose and decide whether to iterate or pivot
-   - Document learnings either way
+   **Results files:**
+   - `evaluation_sheets/20251230/experiment_05_ratings_20251230.json` - Full ratings data with all comments
+   - `evaluation_sheets/20251230/experiment_04_vs_05_comparison.md` - Detailed comparison analysis
 
-### Medium-Term (Q1 2025)
+   **Key Research Questions - Answered:**
 
-**If Experiment 05B succeeds:**
-4. Lock methodology in PROCESS.md (mark scenarios/prompts as final)
-5. Test 5-10 additional models before Q1 session
-6. Schedule March quarterly session
-7. Publish blog posts 1-5 (including pivot story from Exp 04)
+   **Q1: Do shorter outputs (~50-60 words vs 50-100) score higher?**
+   - MIXED. Some models improved (Claude, GPT Scenario A), some declined (OLMo Scenario B)
+   - The 26-word OLMo output from Exp 04 remains the ONLY authentically-rated output
+   - Conclusion: Shorter IS better for authenticity, but 50-60 may still be too long
 
-**If Experiment 05B reveals more issues:**
-4. Decide: Another iteration or accept partial validation?
-5. Write "What I Learned" series
-6. Use learnings for course content (methodology iteration as teaching material)
+   **Q2: Does explicit humor goal improve Humor Level ratings?**
+   - YES, significantly. Claude +55% (5.0→7.75), Llama +64% (3.5→5.75), GPT +12%
+   - Conclusion: Explicit instructions work, even for creative/subjective tasks
+
+   **Q3: Do clearer prompts reduce coherence issues?**
+   - MOSTLY YES, but one major failure
+   - Fixed: Claude formatting, GPT asterisks, Llama context errors
+   - Failed: Qwen3 Scenario A complete coherence collapse
+   - Conclusion: Prescriptive prompts help some models, confuse thinking models
+
+   **Q4: Do outputs pass the "good use of slang/emojis, not cringy" test?**
+   - Judge #1: YES for 4/10 outputs (Claude A/B, GPT A, OLMo B)
+   - Judge #2: NO for all outputs (no scores above 8 on Overall Vibe)
+   - Conclusion: Target NOT MET consistently
+
+   **Model Rankings (Exp 05):**
+   1. Claude Opus 4.5: 7.69 (+1.94 vs Exp 04, +33.7%)
+   2. GPT-5.2: 7.06 (+1.18 vs Exp 04, +20.1%)
+   3. OLMo 3 32B Think: 6.19 (-0.06 vs Exp 04, -1%)
+   4. Llama 3.1 8B: 5.75 (+0.50 vs Exp 04, +9.5%)
+   5. Qwen3 14B: 4.94 (-1.69 vs Exp 04, -25.5%)
+
+   **Differentiation: 2.75-point spread (nearly DOUBLED from Exp 04's 1.38-point spread)**
+
+   **The American Ninja Warrior Hypothesis Result:**
+   - Refined prompts did NOT make the test uniformly easier
+   - Some models improved dramatically, others declined
+   - Differentiation INCREASED, not decreased
+   - The test revealed model-specific responses to constraints
+   - **This is GOOD benchmark behavior**
+
+4. ✅ **DECISION: Do Not Continue**
+
+   **Reasons:**
+   - Judge burnout: Lost 50% of judges (Judge #2 unwilling to continue)
+   - Social cost discovery: Judges won't recruit friends, peer dynamics complex
+   - Unclear value proposition: "Interesting experiment" vs "useful tool" question unresolved
+   - Methodology learnings captured: Process improvements validated, key insights documented
+
+   **What was learned:**
+   - Process mechanics work: Paper sheets, batch evaluation, relatable scenarios
+   - Explicit goals improve outputs: Humor scores improved 11-64% with explicit "be funny" instruction
+   - Models respond differently to constraints: Claude thrived, Qwen collapsed
+   - Authenticity paradox persists: 26-word output authentic, 50-60 word outputs testable but not authentic
+   - Quarterly cadence mandatory: 2 sessions in 3 days = judge burnout
+   - Social costs are real: Teens face peer judgment for participating in AI research
+
+   **Project outcome:**
+   - Bart Test remains a research exploration, not a production benchmark
+   - Methodology documented for others to build on
+   - Blog series (Parts 1-10) captures the journey including what didn't work
+   - Learnings apply to human evaluation research design beyond this specific test
+
+### Next Steps (2025+)
+
+**Immediate:**
+1. ✅ Complete Experiment 05 data entry and analysis - DONE (Dec 30, 2024)
+2. ⏳ Publish blog series Parts 6-10 (narrative of Exp 05, social costs, value questions)
+3. ⏳ Update project README with final status and key learnings
+
+**Future (If Resumed):**
+- Bart Test could be resumed by anyone interested in this methodology
+- All scripts, prompts, and processes are documented
+- Key learnings about human evaluation design are captured
+- If value proposition becomes clearer, methodology can be re-activated
+
+**Value Created (Regardless of Continuation):**
+- Blog content series (10 parts) documenting the journey
+- Methodology insights for human evaluation research
+- Understanding of LLM cultural fluency capabilities and limitations
+- Teaching material for AI courses (real-world iteration example)
 
 ---
 

@@ -1,5 +1,7 @@
 # AI Judges - Hybrid Evaluation System
 
+> **Note (January 2026)**: This project is paused. This document is from Experiment 03 (December 2024), preserved for reference. See [README.md](README.md) for current project status.
+
 This system uses AI judges (GPT-4o, Claude, Gemini) for pre-screening, then gets final validation from human teen judges. Best of both worlds: speed + authenticity.
 
 ## The Workflow
